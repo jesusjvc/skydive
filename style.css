@@ -1,0 +1,27 @@
+/*
+	Theme Name: Skydive México
+	Theme URI: http://skydivemexico.com
+	Description: Tema para Skydive
+	Version: 1.4.3
+	Author: Todd Motto (@toddmotto) & EsBrillante
+	Author URI: http://esbrillante.mx
+	Tags: Blank, HTML5, CSS3
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+/* global box-sizing */
+*,
+*:after,
+*:before {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}

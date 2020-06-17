@@ -1,0 +1,319 @@
+//main: main.less
+
+
+// Fuentes
+
+@font-face {
+    font-family: 'alleritalic';
+    src: url('fonts/aller_it-webfont.woff2') format('woff2'),
+        url('fonts/aller_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller_lightregular';
+    src: url('fonts/aller_lt-webfont.woff2') format('woff2'),
+        url('fonts/aller_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'allerbold';
+    src: url('fonts/aller-webfont.woff2') format('woff2'),
+        url('fonts/aller-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+        url('fonts/fonts/bebasneue_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('fonts/bebasneue_book-webfont.woff2') format('woff2'),
+        url('fonts/bebasneue_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bebas_neuelight';
+    src: url('fonts/bebasneue_light-webfont.woff2') format('woff2'),
+        url('fonts/bebasneue_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+        url('fonts/bebasneue_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bebas_neuethin';
+    src: url('fonts/bebasneue_thin-webfont.woff2') format('woff2'),
+        url('fonts/bebasneue_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+        url('fonts/bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+// Colores
+@morado: #4e3360;
+@naranja: #ffac2f;
+@anaranjado: #eb6319;
+@azul: #01a9b4;
+@negro: #313131;
+@azul-2: #01a9b4;
+@azul-3: #00b2ff;
+@azul-obscuro: #141d2d;
+@gris: #eeeeee;
+@amarillo: #ffef00;
+
+// Estructura
+
+section {
+    padding: 20px 0;
+    text-align: center;
+    p, ul li{
+        font-family: 'aller_lightregular';
+    }
+}
+
+.flex {
+    display: flex;
+
+    &.cols-2 {
+        .column {
+            width: 50%;
+        }
+    }
+
+    &.cols-70-30 {
+        .column {
+            &:first-child {
+                width: 30%;
+            }
+
+            &:last-child {
+                width: 70%;
+            }
+        }
+    }
+
+    &.cols-3 {
+        > .column {
+            width: 100% /3;
+        }
+    }
+
+    &.cols-4 {
+        > .column {
+            width: 100% /4;
+        }
+    }
+
+    &.centrado {
+        justify-content: center;
+    }
+}
+
+.wrapper, header nav {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+body {
+    font-family: 'aller_lightregular';
+    font-size: 24px;
+    color: @negro;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+// Botones
+section .caldera-grid .btn,
+.btn {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    transition: all 0.3s ease-in-out;
+    font-family: 'allerbold';
+    padding: 5px 20px !important;
+    font-size: 1.2em;
+
+    &.azul {
+        background: @azul-2;
+        color: @naranja;
+
+        &:hover {
+            background: @naranja;
+            color: @morado;
+        }
+    }
+
+    &.morado {
+        background: @morado;
+        color: @naranja;
+
+
+        &:hover {
+            background: @naranja;
+            color: @morado;
+        }
+    }
+
+    &.naranja {
+        background: @naranja;
+        color: @morado;
+
+
+        &:hover {
+            background: @morado;
+            color: #fff !important;
+        }
+    }
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'bebas_neuebold';
+}
+
+
+
+strong {
+    font-family: 'allerbold';
+}
+
+/*Ajustes*/
+
+.sin-margin{
+    margin: 0;
+}
+
+.sin-padding{
+    padding: 0;
+}
+
+/*Alineación*/
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/*Formularios*/
+section .caldera-grid .form-control {
+    color: @negro;
+    height: 45px;
+    font-size: 0.9em;
+}
+
+section .caldera-grid .help-block {
+    font-size: 0.7em;
+    color: #4e3360;
+    font-weight: 600;
+}
+
+section .caldera-grid label { 
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+/*Accordion*/
+
+.acordion {
+    list-style: none;
+    text-align: left;
+
+    .pregunta {
+        cursor: pointer;
+        &:hover{
+            h3{
+                color: @azul;
+            }
+        }
+        
+        h3 {
+            font-family: 'allerbold';
+            font-size: 1.5em;
+            transition: all 0.3s ease-in-out;
+            &::before{
+                font-family: "Font Awesome 5 Free";
+                content: "\f067";    
+                color: @azul;
+                font-size: 0.7em;
+                margin-right: 10px;
+            }
+            
+            &.active{
+                &::before{
+                    content: "\f068";  
+                }
+            }
+        }
+        
+        border-bottom: 3px solid #d8dade;
+    }
+
+    .respuesta {
+        p {
+            font-size: 0.8em;
+        }
+    }
+}

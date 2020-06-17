@@ -1,0 +1,1205 @@
+@import "base";
+
+// ---------------------------
+// Header
+// ---------------------------
+
+header {
+    .topbar {
+        background: @morado;
+        color: #fff;
+        font-size: 0.6em;
+        padding: 0;
+        box-sizing: border-box;
+
+        .flex {
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        i {
+            color: @naranja;
+            font-size: 1.5em;
+        }
+
+        a {
+            color: #fff;
+        }
+
+        ul.redes {
+            list-style: none;
+
+            li {
+                margin: 0 10px;
+            }
+        }
+    }
+
+    .logo {
+        text-align: center;
+
+        img {
+            margin: 10px 0;
+            max-width: 248px;
+        }
+    }
+
+    nav {
+
+        ul {
+            border-bottom: 1px solid @naranja;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            padding-bottom: 10px;
+            margin: 0 0 15px 0;
+
+            a {
+                font-family: 'allerbold';
+                padding-bottom: 5px;
+                transition: all 0.3s ease-in-out;
+                text-transform: uppercase;
+                font-size: 0.65em;
+
+                &:hover,
+                &.active {
+                    border-bottom: 5px solid @naranja;
+                    color: @naranja;
+                }
+
+            }
+        }
+    }
+}
+
+// ---------------------------
+// Componentes generales
+// ---------------------------
+
+#addons .paquete,
+#recomendaciones .opcion {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    position: relative;
+    margin: 20px auto;
+    background: @gris;
+    padding: 40px;
+    box-sizing: border-box;
+
+
+    img {
+        position: relative;
+        top: -140px;
+    }
+
+
+    h3 {
+        color: @morado;
+        font-size: 4em;
+        margin: -140px 0 0 0;
+        line-height: 0.8em;
+
+        span {
+            font-size: 0.5em;
+            line-height: 1em;
+            color: @naranja;
+            display: block;
+            font-family: 'allerbold';
+        }
+    }
+
+    b {
+        font-family: 'allerbold';
+    }
+
+    ul {
+        text-align: left;
+        margin: 0;
+
+    }
+
+    .precio {
+        color: @azul-2;
+        font-size: 3em;
+        font-family: 'bebas_neuebold';
+        margin-top: 20px;
+    }
+}
+
+// ---------------------------
+// Home
+// ---------------------------
+
+#salta {
+    background: url("img/home/salta/BrushCompleto.png") no-repeat top center;
+    min-height: 1310px;
+    background-size: cover;
+    margin-top: -133px;
+    z-index: 1;
+    position: relative;
+
+
+    img.salta {
+        position: absolute;
+        left: -281px;
+        top: 127px;
+        z-index: 1;
+    }
+
+    h2 {
+        font-size: 5.5em;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        line-height: 0.2em;
+        left: 340px;
+        top: 140px;
+        width: 600px;
+
+        .text {
+            position: absolute;
+            left: -45px;
+        }
+
+        .column {
+            text-align: left;
+            position: relative;
+            top: -26px;
+            left: 206px;
+
+            b {
+
+                display: block;
+                font-size: 0.4em;
+            }
+
+            strong {
+                color: @azul-3;
+                font-size: 0.4em;
+                font-family: 'bebas_neuebold';
+
+            }
+
+            span {
+                color: @azul-3;
+                font-size: 0.4em;
+                font-family: 'allerbold';
+            }
+        }
+
+
+    }
+
+    .info {
+        margin-left: 200px;
+        display: block;
+        width: 600px;
+        margin: 0 auto;
+        position: relative;
+        left: 270px;
+        top: 330px;
+
+        h3 {
+            color: #fff;
+            background-color: @morado;
+            font-size: 3em;
+            display: inline-block;
+            padding: 0 20px;
+        }
+
+        strong {
+            color: @morado;
+        }
+    }
+
+    // Ajustes para la versión tornado
+    &.tornado {
+        background: url("img/tornado/fondo.png") no-repeat center;
+
+        img.salta {
+            left: -421px;
+            top: 127px;
+            z-index: 1;
+        }
+
+        .info {
+            top: 165px;
+
+            h2 {
+                position: initial;
+                line-height: 1.3em;
+                margin: 0;
+                text-align: left;
+                font-size: 2em;
+
+                span {
+                    color: @naranja;
+                    display: block;
+                    font-size: 2em;
+                }
+            }
+
+            h3 {
+                width: 100%;
+                margin: 30px 0;
+            }
+
+            p {
+                color: #fff;
+            }
+
+        }
+    }
+}
+
+
+#instagram {
+    background: url("img/home/avientate/Logo_Gris.jpg") no-repeat center;
+    min-height: 300px;
+
+    h2 {
+        text-align: center;
+        font-size: 4em;
+        color: @morado;
+        line-height: 1em;
+        margin: 0;
+    }
+
+    p {
+        text-align: center;
+        margin: 0;
+    }
+
+}
+
+#why {
+    background: url(img/home/why/fondo.jpg) no-repeat center;
+    color: #fff;
+
+    h2 {
+        font-size: 4.5em;
+        text-align: left;
+        line-height: 1em;
+
+        b,
+        strong {
+            background: @azul-2;
+            color: @naranja;
+        }
+
+        b {
+            display: inline-block;
+            font-size: 0.5em;
+            padding: 2px 20px;
+            line-height: 1em;
+        }
+
+        small {
+            font-size: 0.33em;
+            display: block;
+            line-height: 1em;
+        }
+
+        strong {
+            font-family: 'bebas_neuebold';
+            font-size: 0.7em;
+            line-height: 1em;
+            text-align: right;
+            margin-left: 2.2em;
+        }
+    }
+
+    .info {
+        float: right;
+        width: 507px;
+        top: 150px;
+        position: relative;
+        padding: 20px;
+    }
+
+}
+
+#beneficios {
+    background: url("img/home/Beneficios/brush.jpg") no-repeat center;
+    padding: 190px 0;
+
+    .beneficio {
+        background: #eeeeee;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+        position: relative;
+        min-height: 615px;
+
+        img {
+            position: absolute;
+        }
+
+        h2 {
+            color: @azul;
+            font-size: 2.5em;
+            line-height: 1em;
+
+            span {
+                font-family: 'allerbold';
+                display: block;
+                color: @negro;
+            }
+        }
+
+    }
+
+    .column {
+        &:nth-child(1) {
+            img {
+                left: -50px;
+                top: -102px;
+            }
+
+            h2 {
+                text-align: right;
+            }
+        }
+
+        &:nth-child(2) {
+            img {
+                top: -169px;
+                margin: 0 auto;
+                left: -54px;
+                right: 0;
+            }
+        }
+
+        &:nth-child(3) {
+            img {
+                top: -120px;
+                left: 106px;
+            }
+
+            h2 {
+                text-align: left;
+            }
+        }
+    }
+
+    &.academia {
+        background-image: url("./img/academia/ademas/fondo.png");
+
+        h2 {
+            color: @morado;
+            font-size: 3.5em;
+        }
+
+        .beneficio {
+            min-height: 500px;
+
+            h3 {
+                color: @azul;
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 0.8em;
+            }
+
+            &.alberca {
+                background: url("./img/academia/ademas/alberca.png") no-repeat @gris center bottom;
+            }
+
+            &.restaurante {
+                background: url("./img/academia/ademas/restaurante.png") no-repeat @gris center bottom;
+            }
+
+            &.camping {
+                background: url("./img/academia/ademas/camping.png") no-repeat @gris center bottom;
+            }
+
+            &.aviones {
+                img {
+                    left: -20px;
+                    top: -180px;
+                }
+            }
+        }
+    }
+}
+
+#paquetes {
+    h2 {
+        color: @morado;
+        font-size: 4em;
+        text-align: center;
+    }
+
+    .paquete {
+
+        text-align: left;
+        box-sizing: border-box;
+        max-width: 1100px;
+        margin: 0 auto;
+
+        .fondo {
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+            min-height: 380px;
+            transition: all 0.3s ease-in-out;
+            filter: saturate(50%);
+        }
+
+        &:hover .fondo {
+            filter: saturate(100%);
+        }
+
+        &.uno .fondo {
+            background-image: url("img/home/paquetes/1.jpg");
+        }
+
+        &.dos .fondo {
+            background-image: url("img/home/paquetes/2.jpg");
+        }
+
+        &.tres .fondo {
+            background-image: url("img/home/paquetes/3.jpg");
+        }
+
+        h3 {
+            color: #fff;
+            font-size: 6em;
+            line-height: 0.8em;
+            padding: 0px;
+            margin-top: 30px;
+            position: relative;
+            top: 80px;
+
+            span {
+                font-size: 0.5em;
+                font-family: 'allerbold';
+            }
+
+            .precio {
+                background: @morado;
+                color: @naranja;
+                font-size: 0.4em;
+                display: block;
+                width: 350px;
+                line-height: 1em;
+                padding: 0 50px 0 100px;
+            }
+        }
+
+        .detalles {
+            background-color: #eeeeee;
+            font-family: 'allerbold';
+            padding: 1px 0 1px 0;
+            box-sizing: border-box;
+            position: relative;
+
+            ul {
+                margin-left: 60px;
+
+                li {
+                    position: relative;
+                    padding: 10px 0;
+
+                    &:first-child::before {
+                        content: url(img/home/paquetes/time.png);
+                        position: absolute;
+                        left: -40px;
+                    }
+
+                    &:last-child::before {
+                        content: url(img/home/paquetes/peso.png);
+                        position: absolute;
+                        left: -40px;
+                    }
+                }
+            }
+
+            .btn {
+                background: url(img/home/paquetes/btn.png) no-repeat;
+                color: #ffac2f;
+                width: 495px;
+                padding: 10px;
+                height: 90px;
+                position: absolute;
+                right: -77px;
+                top: 10px;
+
+                &:hover {
+                    transform: translateY(-5px);
+                    color: #fff;
+                }
+
+                span {
+                    position: relative;
+                    top: 19px;
+                    left: -40px;
+                }
+            }
+
+            .nota {
+                font-family: 'aller_lightregular';
+                background: @naranja;
+                color: #fff;
+                padding: 10px 0;
+                text-align: center;
+                position: relative;
+                bottom: -10px;
+            }
+        }
+
+        ul {
+            list-style: none;
+        }
+
+    }
+}
+
+#condiciones {
+    background: url(img/home/Tornado/fondo.jpg) no-repeat center top;
+    padding: 450px 0 0 0;
+    min-height: 2500px;
+
+    h2 {
+        font-size: 4em;
+        text-align: center;
+        color: @morado;
+    }
+
+    ul {
+        max-width: 800px;
+        margin: 0 auto;
+        list-style: none;
+
+        li {
+            color: #fff;
+            padding: 15px 0;
+            text-align: left;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                left: -20px;
+                content: "•";
+                font-size: 1.5em;
+                color: @naranja;
+            }
+        }
+    }
+
+    &.academia {
+        text-align: left;
+        background-image: url(./img/academia/condiciones/fondo.jpg);
+        background-color: #009cde;
+
+        &::after {
+            content: "";
+            height: 150px;
+            position: relative;
+            bottom: -128px;
+            display: block;
+            width: 100%;
+            background: url(img/academia/condiciones/3.png) no-repeat center bottom;
+            z-index: 1;
+        }
+
+        p {
+            color: #fff;
+        }
+
+        ul {
+            margin: 0;
+            width: auto;
+            max-width: fit-content;
+        }
+
+        table {
+            color: #fff;
+            margin: 20px;
+
+            thead {
+                color: @naranja;
+
+                th {
+                    padding: 20px 0;
+                }
+            }
+
+            td {
+                padding: 20px 0;
+            }
+        }
+
+        .nota {
+            background-color: @naranja;
+            padding: 20px;
+            margin: 50px 0;
+        }
+    }
+}
+
+#garantia {
+    background: url("img/home/garantia/1.png") center right no-repeat;
+    min-height: 600px;
+    color: #fff;
+
+    .flex {
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .info {
+        padding: 50px;
+        text-align: left;
+    }
+}
+
+#addons {
+    h2 {
+        font-size: 4em;
+        text-align: center;
+        color: @morado;
+    }
+
+    #packs {
+        margin-top: 150px;
+
+        .flex:nth-child(2) {
+            margin-top: 150px;
+        }
+
+        .paquete {
+            min-height: 780px;
+        }
+    }
+
+
+    .nota {
+        background-color: @morado;
+        color: #fff;
+        padding: 25px 50px;
+        box-sizing: border-box;
+        margin-top: 50px;
+
+        h4 {
+            color: @naranja;
+        }
+    }
+}
+
+#advertencia {
+    background: url("img/home/Advertencia/1.jpg") no-repeat center top;
+    margin-top: 50px;
+    padding-top: 90px;
+    min-height: 503px;
+
+    img {
+        margin-top: 0px;
+        position: relative;
+        left: -50px;
+    }
+
+    h2 {
+        font-size: 4em;
+        color: #000;
+        margin: 0;
+
+    }
+}
+
+#recomendaciones {
+    margin-top: 50px;
+
+    h2 {
+        font-size: 4em;
+        text-align: center;
+        color: @morado;
+        margin: 0;
+    }
+
+    .flex {
+        margin-top: 150px;
+
+    }
+
+    .opcion {
+        min-height: 450px;
+
+        h3 {
+            min-height: 190px;
+        }
+
+        .btn {
+            width: 250px;
+        }
+
+
+    }
+}
+
+// ---------------------------
+// Transporte
+// ---------------------------
+
+#transporte-contacto {
+    background: url("img/transporte/contacto/fondo.png") no-repeat center top, linear-gradient(180deg, rgba(238, 238, 238, 1) 0%, rgba(238, 238, 238, 1) 36%, rgba(78, 51, 96, 1) 42%, rgba(78, 51, 96, 1) 100%);
+
+
+
+    padding: 150px 0 190px 0;
+    margin: -190px 0 0px 0;
+    position: relative;
+    z-index: 1;
+
+
+    h1 {
+        color: @naranja;
+        text-align: left;
+        font-size: 3.5em;
+    }
+
+    span {
+        color: @amarillo;
+    }
+
+    form {
+        text-align: left;
+    }
+}
+
+
+// ---------------------------
+// Tornado
+// ---------------------------
+
+#experiencia-tornado {
+    background: url("./img/tornado/logo.jpg") no-repeat center;
+    position: relative;
+    min-height: 1100px;
+
+    h2 {
+        color: @morado;
+        font-size: 4em;
+
+        span {
+            display: block;
+            font-size: 0.8em;
+        }
+    }
+
+    .info {
+
+        max-width: 600px;
+        position: absolute;
+        text-align: left;
+
+        strong {
+            color: @morado;
+        }
+    }
+
+    img {
+        width: 90%;
+        float: right;
+        margin-top: 150px;
+        position: relative;
+        right: -250px;
+    }
+}
+
+#costo-tornado {
+    background-color: #2a324e;
+    padding: 100px 0;
+
+    h2 {
+        color: @naranja;
+        line-height: 1em;
+        font-size: 3.5em;
+        margin: 0;
+    }
+
+    h3 {
+        color: @azul;
+        font-size: 2.5em;
+        margin: 0;
+
+        span {
+            color: #fff;
+            display: block;
+            font-size: 0.6em;
+            font-family: 'allerbold';
+        }
+    }
+
+    h4 {
+        color: #fff;
+        font-size: 2.5em;
+        font-family: 'bebas_neuebold';
+        margin: 20px 0;
+    }
+
+    .precio {
+        background-color: @gris;
+        width: 90%;
+        margin: 0 auto;
+        min-height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px;
+
+        h5 {
+            font-family: 'bebas_neuebold';
+            color: @azul;
+            font-size: 3em;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        p {
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .flex {
+        margin-bottom: 50px;
+    }
+}
+
+#tornado-faq {
+    .wrapper {
+        margin-top: -300px;
+        z-index: 1;
+    }
+}
+
+#tornado-banner {
+    background: url("./img/tornado/banner.jpg") no-repeat center;
+    padding: 100px 0;
+
+    img {
+        display: block;
+        margin: 20px auto;
+    }
+}
+
+// ---------------------------
+// Cómo llegar
+// ---------------------------
+
+#comollegar-faq {
+    background: @gris;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: relative;
+        bottom: -100px;
+        height: 250px;
+        background: url(img/como-llegar/3.png) no-repeat center bottom;
+        width: 100%;
+        display: block;
+    }
+
+    .pregunta {
+        margin-top: 50px;
+    }
+}
+
+// ---------------------------
+// Academia
+// ---------------------------
+#niveles-academia {
+    &::after {
+        content: "";
+        height: 150px;
+        position: relative;
+        bottom: -150px;
+        display: block;
+        width: 100%;
+        background: url("./img/academia/Niveles/bottom.png") no-repeat center bottom;
+    }
+
+    .bloque {
+        background-color: @gris;
+        width: 90%;
+        box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        box-sizing: border-box;
+        min-height: 310px;
+
+        &.destacado {
+            background-color: @anaranjado;
+            color: #fff;
+            font-family: 'bebas_neuebold';
+
+            p {
+                font-size: 1.4em;
+            }
+        }
+
+        h2 {
+            color: @azul;
+            font-size: 3em;
+            margin: 0;
+        }
+
+        p {
+            font-size: 0.8em;
+        }
+    }
+
+    .flex {
+        margin: 50px 0;
+    }
+
+    .info {
+        p {
+            text-align: left;
+
+            strong {
+                color: @morado;
+            }
+        }
+    }
+}
+
+#precios-academia {
+    background: @morado;
+    color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 100px;
+
+    h2 {
+        color: @naranja;
+        font-size: 4em;
+    }
+
+    p {
+        font-family: 'aller_lightregular';
+    }
+
+    table {
+        color: #fff;
+        width: 100%;
+        text-align: left;
+
+        thead {
+            color: @naranja;
+
+            th:nth-child(2) {
+                color: @azul-2;
+            }
+        }
+
+        tr td {
+            font-family: 'aller_lightregular';
+            padding: 10px;
+            font-weight: lighter;
+        }
+
+        .total {
+            background-color: @azul-2;
+        }
+    }
+
+}
+
+#licencia-academia {
+    margin-top: 0;
+    padding-top: 0;
+    overflow: hidden;
+    width: 100%;
+    .wrapper {
+        margin-top: -450px;
+        z-index: 1;
+        text-align: left;
+        p {
+            font-family: 'aller_lightregular';
+        }
+    }
+}
+
+#como-iniciar-academia {
+    overflow: hidden;
+    &::after {
+        content: "";
+        height: 150px;
+        position: relative;
+        bottom: 28px;
+        display: block;
+        width: 100%;
+        background: url(img/academia/horarios/1.png) no-repeat center bottom;
+        z-index: 1;
+    }
+
+
+    margin: 100px 0;
+
+    img {
+        z-index: 2;
+    }
+
+    p {
+        text-align: justify;
+        font-family: 'aller_lightregular';
+    }
+}
+
+#horarios-academia {
+    background-color: @naranja;
+    overflow: hidden;
+    margin-top: -300px;
+
+    h2 {
+        color: @azul-3;
+        font-size: 3.5em;
+        text-align: left;
+        position: relative;
+        z-index: 2;
+    }
+
+    img {
+        position: absolute;
+        right: -400px;
+    }
+
+    .info {
+        text-align: left;
+        padding: 20px;
+        box-sizing: border-box;
+
+        p {
+            font-family: 'aller_lightregular';
+            text-align: justify;
+            font-size: 0.9em;
+        }
+    }
+}
+
+#entrenamiento {
+    padding: 100px 0;
+    rs-fullwidth-wrap {
+        z-index: 0;
+        top: 120px;
+    }
+
+    .wrapper {
+        margin-top: -300px;
+        z-index: 1;
+
+        h2 {
+            font-size: 3.7em;
+            color: @azul-obscuro;
+            line-height: 1em;
+            span {
+                &:first-child {
+                    font-size: 1.2em;
+                    position: relative;
+                    left: -150px;
+                }
+
+                &:last-child {
+                    color: @azul-3;
+                    font-size: 1.2em;
+                    display: block;
+                    position: relative;
+                    right: -150px;
+                }
+            }
+        }
+
+        p {
+            text-align: justify;
+        }
+    }
+}
+
+
+// ---------------------------
+// Footer
+// ---------------------------
+
+footer {
+    margin-top: 0px;
+    background: @morado;
+    color: #fff;
+    padding: 50px 0px 0 0px;
+    box-sizing: border-box;
+    font-size: 0.65em;
+
+    img.logo {
+        margin-bottom: 50px;
+    }
+
+    h2 {
+        color: @naranja;
+        padding: 20px;
+        font-size: 1.8em;
+    }
+
+    .info {
+        padding: 0 30px;
+        box-sizing: border-box;
+        position: relative;
+        margin: 20px 0;
+
+        i {
+            color: @naranja;
+            position: absolute;
+            left: -10px;
+        }
+
+        p {
+            padding: 0;
+            margin: 0;
+
+        }
+
+        a {
+            color: #fff;
+        }
+
+        .iframe {
+            width: 100%;
+        }
+    }
+
+    .bar {
+        background: @azul-2;
+        margin-top: 50px;
+        padding: 20px 0;
+        color: @naranja;
+
+        a {
+            color: @naranja;
+        }
+    }
+}
+
+// ---------------------------
+// Promoción
+// ---------------------------
+
+#promo-form {
+    background-color: @gris;
+    padding: 100px 0 150px 0;
+
+    h1 {
+        color: @morado;
+        font-size: 2em;
+
+        span {
+            color: @naranja;
+        }
+    }
+}
+
+@import "responsive";
