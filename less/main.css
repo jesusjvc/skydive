@@ -1157,6 +1157,7 @@ footer .bar a {
   display: block;
   overflow: hidden;
   margin: auto;
+  width: 100%;
 }
 .contenedor-blog .datos {
   font-size: 12px;
