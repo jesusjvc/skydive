@@ -3,7 +3,7 @@
 	<main role="main">
 	<!-- section -->
 	<section>
-<div class="contenedor-blog">
+<div class="contenedor-blog2">
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 		<!-- article -->

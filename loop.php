@@ -1,11 +1,13 @@
 <div class="contenedor-blog">
     <?php
     $bar = 0;
+    $bar2 = 0;
     
    
     if (have_posts()): while (have_posts()) : the_post(); ?>
     <?php
 $bar=$bar+1;
+    $bar2=$bar2+1;
     ?>
 	<!-- article -->
 	
@@ -44,7 +46,9 @@ $bar=$bar+1;
 	
 	<?php
     if($bar==2){
-      
+        
+       
+      $bar=0;
          ?>
         </div>
         <div class="contenedor-blog">
@@ -53,8 +57,18 @@ $bar=$bar+1;
     ?>
 	<!-- /article -->
 
-<?php endwhile; ?>
-
+<?php endwhile; 
+            if ($bar%2==0){
+   // echo "el $numero es par";
+}else{
+                ?>
+                <article class="nodemostrar"></article>
+                <?php
+   // echo "el $numero es impar";
+}
+            
+            ?>
+ 
 <?php else: ?>
 
 	<!-- article -->

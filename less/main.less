@@ -1209,7 +1209,9 @@ footer {
     margin: 0 auto;
      display: flex;
   flex-wrap: nowrap;
-    
+    a{
+        color: #4e3360;
+    }
     article{
             margin-bottom: 40px;
     border: 1px solid #eee;
@@ -1241,6 +1243,7 @@ footer {
     text-transform: uppercase;
     line-height: 0px;
             font-size: 35px;
+        color: #4e3360;
     }
     h3{
         display: block;
@@ -1251,6 +1254,7 @@ footer {
     margin-inline-end: 0px;
     font-weight: bold;
     letter-spacing: 1px;
+        color: #4e3360;
     
    
     font-weight: 600;
@@ -1271,6 +1275,28 @@ footer {
     width: 10%;
     height: 11%;
 }
+    article.nodemostrar {
+    visibility: hidden;
+}
+    a.view-article {
+    display: block;
+   
+    width: 495px;
+    margin: auto;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Kohinoor Devanagari';
+    text-transform: none;
+    font-size: 1.2em;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding: 15px 40px;
+    font-weight: bold;
+        color: #fff;
+    background-color: #4e3360;
+    }
+    
     
 }
 
@@ -1281,6 +1307,143 @@ footer {
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+}
+
+.contenedor-blog2 {
+        max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    article {
+    padding: 30px 20px;
+}
+    p{
+        text-align: justify;
+        font-size: 16px;
+    color: #777777;
+    line-height: 1.66em;
+    }
+    h2{
+        font-size: 30px;
+    color: ##4e3360;
+    font-weight: 600;
+    text-transform: uppercase;
+    }
+    a{
+        color:#4e3360;
+    }
+    .datos {
+    font-size: 12px;
+    font-style: italic;
+    color: #999;
+}
+    b,strong,em{
+        color:#4e3360;
+    }
+    img.avatar.avatar-96.photo {
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.3);
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    margin: -16px  10px;
+    width: 45px;
+    height: 45px;
+}
+    ul{
+        list-style: none;
+    }
+    .comments h2{
+     
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+        
+    }
+    .comment-author.vcard {
+    font-weight: 700;
+    color: #666;
+    float: left;
+    margin: 6px 16px 0 0;
+        font-size: 15px;
+}
+    form{
+        label {
+       display: none;
+}
+        textarea#comment {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 3px;
+    position: relative;
+    width: 100%;
+}
+
+    }
+    .comment-meta.commentmetadata {
+    display: inline-block;
+   // float: left;
+    color: #999;
+    margin: 6px 16px 0 0;
+    font-size: 11px;
+            position: relative;
+    top: -4px;
+}
+    li.comment {
+    text-align: left;
+}
+    .reply {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 15px;
+    position: relative;
+    float: left;
+   // top: 32px;
+}
+    .comment-body {
+       margin-bottom: 65px;
+}
+    .comment-body p{
+          background-color: #fff;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 3px;
+    position: relative;
+  //  top: 41px;
+    }
+    #reply-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+    input#submit {
+    display: block;
+    width: 495px;
+    margin: auto;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Kohinoor Devanagari';
+    text-transform: none;
+    font-size: 1.2em;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding: 15px 40px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4e3360;
+}
 }
 
 @import "responsive";

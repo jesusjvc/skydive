@@ -1144,6 +1144,9 @@ footer .bar a {
   display: flex;
   flex-wrap: nowrap;
 }
+.contenedor-blog a {
+  color: #4e3360;
+}
 .contenedor-blog article {
   margin-bottom: 40px;
   border: 1px solid #eee;
@@ -1173,6 +1176,7 @@ footer .bar a {
   text-transform: uppercase;
   line-height: 0px;
   font-size: 35px;
+  color: #4e3360;
 }
 .contenedor-blog h3 {
   display: block;
@@ -1182,6 +1186,7 @@ footer .bar a {
   margin-inline-end: 0px;
   font-weight: bold;
   letter-spacing: 1px;
+  color: #4e3360;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -1200,9 +1205,158 @@ footer .bar a {
   width: 10%;
   height: 11%;
 }
+.contenedor-blog article.nodemostrar {
+  visibility: hidden;
+}
+.contenedor-blog a.view-article {
+  display: block;
+  width: 495px;
+  margin: auto;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Kohinoor Devanagari';
+  text-transform: none;
+  font-size: 1.2em;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 15px 40px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4e3360;
+}
 .contenedor-blog > article {
   margin: 10px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+}
+.contenedor-blog2 {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.contenedor-blog2 article {
+  padding: 30px 20px;
+}
+.contenedor-blog2 p {
+  text-align: justify;
+  font-size: 16px;
+  color: #777777;
+  line-height: 1.66em;
+}
+.contenedor-blog2 h2 {
+  font-size: 30px;
+  color: ##4e3360;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.contenedor-blog2 a {
+  color: #4e3360;
+}
+.contenedor-blog2 .datos {
+  font-size: 12px;
+  font-style: italic;
+  color: #999;
+}
+.contenedor-blog2 b,
+.contenedor-blog2 strong,
+.contenedor-blog2 em {
+  color: #4e3360;
+}
+.contenedor-blog2 img.avatar.avatar-96.photo {
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+  margin: -16px 10px;
+  width: 45px;
+  height: 45px;
+}
+.contenedor-blog2 ul {
+  list-style: none;
+}
+.contenedor-blog2 .comments h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.contenedor-blog2 .comment-author.vcard {
+  font-weight: 700;
+  color: #666;
+  float: left;
+  margin: 6px 16px 0 0;
+  font-size: 15px;
+}
+.contenedor-blog2 form label {
+  display: none;
+}
+.contenedor-blog2 form textarea#comment {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 15px;
+  margin-top: 25px;
+  border-radius: 3px;
+  position: relative;
+  width: 100%;
+}
+.contenedor-blog2 .comment-meta.commentmetadata {
+  display: inline-block;
+  color: #999;
+  margin: 6px 16px 0 0;
+  font-size: 11px;
+  position: relative;
+  top: -4px;
+}
+.contenedor-blog2 li.comment {
+  text-align: left;
+}
+.contenedor-blog2 .reply {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 15px;
+  position: relative;
+  float: left;
+}
+.contenedor-blog2 .comment-body {
+  margin-bottom: 65px;
+}
+.contenedor-blog2 .comment-body p {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 15px;
+  margin-top: 25px;
+  border-radius: 3px;
+  position: relative;
+}
+.contenedor-blog2 #reply-title {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.contenedor-blog2 input#submit {
+  display: block;
+  width: 495px;
+  margin: auto;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Kohinoor Devanagari';
+  text-transform: none;
+  font-size: 1.2em;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 15px 40px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4e3360;
 }
