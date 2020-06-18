@@ -1396,10 +1396,23 @@ footer .bar a {
   width: 33.33%;
   padding: 20px 30px;
 }
+.especial .sidebar-widget {
+  display: inherit;
+}
+.especial .sidebar-widget div {
+  width: inherit;
+}
+.cont {
+  display: flex;
+}
+.cont aside {
+  padding: 20px;
+}
 .search input.search-input {
-  margin: 0;
   padding: 12px 28px 12px 15px;
-  width: 100%;
+  width: 80%;
+  display: block;
+  margin: auto;
   border: 2px solid rgba(0, 0, 0, 0.12);
   font-size: 20px;
   color: #767676;
@@ -1410,7 +1423,7 @@ footer .bar a {
 }
 .search button.search-submit {
   display: block;
-  width: 495px;
+  width: 100%;
   margin: auto;
   margin-top: 20px;
   transition: all 0.3s ease-in-out;
