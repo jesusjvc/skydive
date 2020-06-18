@@ -1231,7 +1231,7 @@ footer {
     .datos {
     font-size: 12px;
     font-style: italic;
-    color: #999;
+    color: black;
 }
     .date > span{
             display: inline-block;
@@ -1262,7 +1262,7 @@ footer {
     }
     p{
             font-size: 16px;
-    color: #777777;
+    color: black;
     line-height: 1.66em;
     }
     a.post-edit-link{
@@ -1317,11 +1317,13 @@ footer {
     flex-wrap: nowrap;
     article {
     padding: 30px 20px;
+            display: block;
+    margin: auto;
 }
     p{
         text-align: justify;
         font-size: 16px;
-    color: #777777;
+    color: black;
     line-height: 1.66em;
     }
     h2{
@@ -1336,7 +1338,7 @@ footer {
     .datos {
     font-size: 12px;
     font-style: italic;
-    color: #999;
+    color: black;
 }
     b,strong,em{
         color:#4e3360;
@@ -1374,7 +1376,7 @@ footer {
 }
     form{
         label {
-       display: none;
+      // display: none;
 }
         textarea#comment {
     background-color: #fff;
@@ -1443,6 +1445,73 @@ footer {
     font-weight: bold;
     color: #fff;
     background-color: #4e3360;
+}
+}
+.sidebar-widget {
+    display: flex;
+    a{
+        color: #4e3360;
+    }
+    h3{
+            text-transform: uppercase;
+    font-size: 20px;
+    color: #333333;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    line-height: 1.66em;
+    }
+    ul#recentcomments, .widget_recent_entries ul, .widget_categories ul {
+    margin: 0;
+    list-style-type: disc;
+            position: relative;
+    left: -35px;
+}
+    li.recentcomments, .widget_recent_entries li, .widget_categories li {
+    margin: 5px 0;
+    margin-left: 0!important;
+    list-style: none;
+    text-decoration: none;
+    line-height: 18px;
+    font-size: 15px;
+}
+    div{
+        width: 33.33%;
+            padding: 20px 30px;
+    }
+    
+    
+}
+.search{
+    input.search-input {
+    margin: 0;
+    padding: 12px 28px 12px 15px;
+    width: 100%;
+    border: 2px solid rgba(0,0,0,.12);
+    font-size: 20px;
+    color: #767676;
+    /* padding: 10px 12px; */
+    background-color: #fdfdfd;
+    /* border: 1px solid #e3e3e3; */
+    outline: 0;
+}
+    button.search-submit {
+    display: block;
+    width: 495px;
+    margin: auto;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Kohinoor Devanagari';
+    text-transform: none;
+    font-size: 25px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding: 15px 40px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4e3360;
+        
 }
 }
 
