@@ -8,10 +8,13 @@
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
     <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="<?php bloginfo('description'); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
     <?php wp_head(); ?>
     <script>
@@ -78,9 +81,25 @@
         <!-- /logo -->
 
         <!-- nav -->
-        <nav class="nav" role="navigation">
-            <?php html5blank_nav(); ?>
+
+<div class="topnav" id="myTopnav">
+ <nav class="nav" role="navigation">
+  <a href="/" class="active">INICIO</a>
+  <a href="#news">PRECIOS</a>
+  <a href="#contact">PREGUNTAS FRECUENTES</a>
+  <a href="#about">LICENCIA TIPO A</a>
+  <a href="#about">EXPERIMENTADOS</a>
+  <a href="#about">TÚNEL DE VIENTO	</a>
+  <a href="#about">CONTACTO	</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+   </nav>
+</div>
+      <!--  <nav class="nav" role="navigation">
+            <?//php html5blank_nav(); ?>
         </nav>
+        -->
         <!-- /nav -->
 
     </header>

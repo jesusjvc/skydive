@@ -36,7 +36,7 @@ get_header();
         <a href="#" class="btn morado">!Quiero SALTAR!</a>
     </div>
 </section>
-
+<!--
 <section id="why">
     <div class="wrapper">
         <div class="flex cols-2">
@@ -88,7 +88,7 @@ get_header();
 </section>
 
 <section id="mejores-aviones">
-    <?php add_revslider('slider-1'); ?>
+    <?php //add_revslider('slider-1'); ?>
 </section>
 
 <section id="testimonios">
@@ -332,4 +332,5 @@ get_header();
         </div>
     </div>
 </section>
+-->
 <?php get_footer(); ?>

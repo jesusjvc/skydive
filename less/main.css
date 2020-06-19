@@ -84,7 +84,6 @@ section ul li {
 }
 .wrapper,
 header nav {
-  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
@@ -1411,6 +1410,9 @@ footer .bar a {
 .cont aside {
   padding: 20px;
 }
+.cont main {
+  width: 80%;
+}
 .search input.search-input {
   padding: 12px 28px 12px 15px;
   width: 80%;
@@ -1440,4 +1442,227 @@ footer .bar a {
   font-weight: bold;
   color: #fff;
   background-color: #4e3360;
+}
+.topnav {
+  overflow: hidden;
+  /* background-color: #333; */
+  border-bottom: 1px solid #ffac2f;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+  margin: 0 0 15px 0;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #4e3360;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'allerbold';
+  /* padding-bottom: 5px; */
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  font-size: 0.65em;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  border-bottom: 3px solid #ffac2f;
+  color: #ffac2f;
+}
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 768px) {
+  .content {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  section {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  p,
+  a,
+  ul,
+  li {
+    font-size: 16px;
+  }
+  .sidebar {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+  .sidebar-widget {
+    display: inherit;
+  }
+  .sidebar-widget div {
+    width: 100%;
+    padding: 10px;
+  }
+  .cont {
+    display: inherit;
+  }
+  .cont main {
+    width: 100%;
+  }
+  .contenedor-blog {
+    display: contents;
+  }
+  .contenedor-blog2 article {
+    padding: initial;
+  }
+  .contenedor-blog2 p {
+    padding: 10px;
+  }
+  .flex {
+    display: inline;
+  }
+  .flex.cols-2 .column {
+    width: 100%;
+    padding: 10px;
+  }
+  footer .info i {
+    color: #ffac2f;
+    position: absolute;
+    left: -2px;
+    top: 2px;
+  }
+  footer img.logo {
+    margin-bottom: 50px;
+    display: block;
+    margin: auto;
+  }
+  footer h2 {
+    text-align: center;
+  }
+  footer iframe {
+    display: block;
+    margin: auto;
+  }
+  footer .mapa {
+    padding: inherit;
+  }
+  p.copyright {
+    text-align: center;
+  }
+  header .topbar {
+    padding: 20px;
+  }
+  header ul.redes.flex {
+    display: flex;
+  }
+  header .column {
+    padding: 10px 0px;
+  }
+  header i.fas {
+    margin-right: 5px;
+  }
+  /**HOME**/
+  #salta .info {
+    margin-left: 200px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+    top: 330px;
+  }
+  #salta h2 {
+    font-size: 5em;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    line-height: 0.2em;
+    left: 0px;
+    top: 113px;
+    width: 100%;
+  }
+  #salta h2 .column {
+    text-align: left;
+    position: relative;
+    top: 335px;
+    left: 0px;
+  }
+  p {
+    text-align: justify;
+  }
+  #salta h2 .text {
+    position: absolute;
+    left: 122px;
+  }
+  #salta img.salta {
+    position: absolute;
+    left: -125px;
+    top: 77px;
+  }
+  #salta h2 .column strong {
+    font-size: 0.35em;
+  }
+  #salta h2 .column span {
+    color: #00b2ff;
+    font-size: 0.27em;
+    font-family: 'allerbold';
+  }
+  #salta h2 .column b {
+    display: block;
+    font-size: 0.3em;
+  }
+  #salta .info h3 {
+    font-size: 2.5em;
+  }
+  #salta {
+    background: url(img/movil/BrushCompletomovil.png) no-repeat top center;
+  }
+  #instagram {
+    padding: 50px 10px;
+  }
+  #instagram h2 {
+    font-size: 3em;
+  }
 }
