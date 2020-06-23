@@ -4,7 +4,7 @@ get_header();
 ?>
 
 <div id="slide">
-    <?php add_revslider('academia'); ?>
+    <?php  add_revslider('academia'); ?>
 </div>
 
 <section id="niveles-academia">
@@ -97,7 +97,7 @@ get_header();
         </div>
     </div>
 </section>
-
+<!--
 <section id="precios-academia">
     <div class="wrapper">
         <h2>PRECIOS</h2>
@@ -172,7 +172,7 @@ get_header();
 </section>
 
 <section id="licencia-academia">
-    <?php add_revslider('licencia'); ?>
+    <?php // add_revslider('licencia'); ?>
     <div class="wrapper">
 
         <p>
@@ -210,7 +210,7 @@ get_header();
                 del año.</strong></p>
     </div>
 
-    <?php add_revslider('avion'); ?>
+    <?php // add_revslider('avion'); ?>
 </section>
 
 <section id="horarios-academia">
@@ -544,7 +544,7 @@ get_header();
 </section>
 
 <section id="entrenamiento">
-<?php add_revslider('programa-entrenamiento'); ?>
+<?php // add_revslider('programa-entrenamiento'); ?>
     <div class="wrapper">
         <p>Nuestro programa de entrenamiento en el túnel de viento vertical TORNADO es único en el mundo. Desarrollarás
             habilidades extraordinarias a un precio accesible y con instructores de altísimo nivel.</p>
@@ -562,7 +562,7 @@ get_header();
         <a href="#" class="btn naranja">ENTRENAMIENTO MILITAR - VER FLYER PDF</a>
     </div>
 </section>
-
+-->
 <script>
     jQuery(document).ready(function ($) {
 

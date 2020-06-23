@@ -1661,6 +1661,7 @@ footer .bar a {
   }
   #salta {
     background: url(img/movil/BrushCompletomovil.png) no-repeat top center;
+    margin-top: auto;
   }
   #instagram {
     padding: 50px 10px;
@@ -1723,6 +1724,16 @@ footer .bar a {
     height: 500px;
     background-size: contain;
   }
+  #paquetes .paquete.dos .fondo {
+    background-image: url(img/movil/paquete2.jpg);
+    height: 500px;
+    background-size: contain;
+  }
+  #paquetes .paquete.tres .fondo {
+    background-image: url(img/movil/paquete3.jpg);
+    height: 500px;
+    background-size: contain;
+  }
   #paquetes .paquete h3 {
     color: #fff;
     text-align: center;
@@ -1776,7 +1787,7 @@ footer .bar a {
     font-size: 2em;
   }
   #advertencia {
-    background: url(img/movil/Advertencia.jpg) no-repeat center top;
+    background: url(img/movil/advertencia.jpg) no-repeat center top;
     min-height: 1000px;
     background-size: cover;
   }
@@ -1807,5 +1818,19 @@ footer .bar a {
   }
   #addons #packs .paquete {
     min-height: auto;
+  }
+  /**ACADEMIA**/
+  .flex.cols-4 > .column {
+    width: 100%;
+  }
+  #niveles-academia .bloque {
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+  #niveles-academia .bloque h2 {
+    font-size: 2em;
+  }
+  #niveles-academia p {
+    font-size: smaller;
   }
 }

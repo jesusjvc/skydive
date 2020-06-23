@@ -32,7 +32,7 @@ get_header();
     <div class="wrapper">
         <h2>¡AVIÉNTATE TU TAMBIÉN!</h2>
         <p>Estas son las pruebas de quienes ya lo hicieron</p>
-
+        <?php echo do_shortcode('[instagram-feed]'); ?>
         <a href="#" class="btn morado">!Quiero SALTAR!</a>
     </div>
 </section>
@@ -88,7 +88,7 @@ get_header();
 </section>
 
 <section id="mejores-aviones">
-    <?php add_revslider('slider-1'); ?>
+    <?php add_revslider('aviones'); ?>
 </section>
 
 <section id="testimonios">
