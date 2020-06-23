@@ -36,7 +36,7 @@ get_header();
         <a href="#" class="btn morado">!Quiero SALTAR!</a>
     </div>
 </section>
-<!--
+
 <section id="why">
     <div class="wrapper">
         <div class="flex cols-2">
@@ -88,12 +88,14 @@ get_header();
 </section>
 
 <section id="mejores-aviones">
-    <?php //add_revslider('slider-1'); ?>
+    <?php add_revslider('slider-1'); ?>
 </section>
 
 <section id="testimonios">
     <div class="wrapper">
-
+    <!--// <?php //echo do_shortcode('[google-reviews-pro place_photo=https://lh3.googleusercontent.com/p/AF1QipNG7atRgPLnIe2F91Q5MgZKeMrggH1T5V0qMpQ-=s1600-w300-h300 place_name="Skydive México - Paracaidismo Tequesquitengo" place_id=ChIJAUB80GzUzYURx8aRtasn4Cs auto_load=true sort=3 min_filter=2 view_mode=slider slider_speed=7 open_link=true]');
+                ?>
+                -->
     </div>
 </section>
 
@@ -332,5 +334,5 @@ get_header();
         </div>
     </div>
 </section>
--->
+
 <?php get_footer(); ?>
