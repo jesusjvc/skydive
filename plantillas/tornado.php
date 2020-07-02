@@ -87,7 +87,7 @@ get_header();
             </div>
         </div>
 
-        <a href="#" class="btn naranja">Paquetes Avanzado/Paracaidístas</a>
+        <a href="https://skydivemexico.mx/wp-content/uploads/2019/03/tuenl-de-viento-programa-de-entrenamiento.pdf" class="btn naranja">Paquetes Avanzado/Paracaidístas</a>
     </div>
 </section>
 
@@ -284,7 +284,7 @@ Recuerda que nos ubicamos en Tequesquitengo, Morelos.</p>
 <section id="tornado-banner">
     <div class="wrapper">
     <img src="<?php echo get_template_directory_uri(); ?>/less/img/tornado/tornado.png" alt="¿Y tu te lo vas a perder?">
-    <a href="#" class="btn naranja">Reservar</a>
+    <a href="https://skydivemexico.mx/promociones/" class="btn naranja">Reservar</a>
     </div>
 </section>
 
@@ -298,14 +298,14 @@ Recuerda que nos ubicamos en Tequesquitengo, Morelos.</p>
                 <div class="opcion">
                     <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/recomendaciones/1.png" alt="">
                     <h3><span>¿Qué hacer en</span> TEQUES? <span>Y sus alrededores</span></h3>
-                    <a href="#" class="btn azul">VER MÁS</a>
+                    <a href="https://skydivemexico.mx/blog/actividades-tequesquitengo/" class="btn azul">VER MÁS</a>
                 </div>
             </div>
             <div class="column">
                 <div class="opcion">
                     <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/recomendaciones/2.png" alt="">
                     <h3>HOTELES<span>en Tequesquitengo</span></h3>
-                    <a href="#" class="btn azul">VER MÁS</a>
+                    <a href="http://t.ly/FLZ6" class="btn azul">VER MÁS</a>
                 </div>
             </div>
         </div>

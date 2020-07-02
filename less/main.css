@@ -163,16 +163,46 @@ strong {
 .text-center {
   text-align: center;
 }
-/*Formularios*/
-section .caldera-grid .form-control {
-  color: #313131;
-  height: 45px;
-  font-size: 0.9em;
+.caldera-grid .form-control::placeholder,
+.caldera-grid .form-control,
+label {
+  color: #4e3360!important;
+  font-family: 'aller_lightregular' !important;
+}
+.boton-enviar {
+  display: inline-block;
+  text-align: center;
+  margin: 20px auto;
+  transition: all 0.3s ease-in-out;
+  font-family: 'allerbold';
+  padding: 5px 20px !important;
+  font-size: 1.2em;
+  background: #ffac2f;
+  color: #4e3360;
+}
+.boton-enviar:hover {
+  background: #4e3360;
+  color: #ffac2f;
+}
+div#fld_7908577_1-wrap,
+div#fld_5022261_1-wrap {
+  position: relative;
+  float: right;
+}
+.caldera-grid a {
+  /* background-color: transparent; */
+  color: #4e3360;
+  font-family: 'aller_lightregular';
+  text-decoration: underline!important;
 }
 section .caldera-grid .help-block {
   font-size: 0.7em;
   color: #4e3360;
-  font-weight: 600;
+  font-weight: bolder;
+}
+section .caldera-grid .form-control {
+  height: 45px;
+  font-size: 0.9em;
 }
 section .caldera-grid label {
   font-weight: 700;
@@ -207,6 +237,12 @@ section .caldera-grid label {
 }
 .acordion .respuesta p {
   font-size: 0.8em;
+}
+header .lap {
+  display: inherit;
+}
+header .movil {
+  display: none;
 }
 header .topbar {
   background: #4e3360;
@@ -1088,6 +1124,7 @@ footer {
 }
 footer img.logo {
   margin-bottom: 50px;
+  width: 25%;
 }
 footer h2 {
   color: #ffac2f;
@@ -1134,6 +1171,14 @@ footer .bar a {
 }
 #promo-form h1 span {
   color: #ffac2f;
+}
+#promo-form img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  vertical-align: middle;
+  position: relative;
+  right: 55px;
 }
 /***BLOG**/
 .contenedor-blog {
@@ -1189,7 +1234,8 @@ footer .bar a {
   font-weight: 600;
   text-transform: uppercase;
 }
-.contenedor-blog p {
+.contenedor-blog p,
+.contenedor-blog li {
   font-size: 16px;
   color: black;
   line-height: 1.66em;
@@ -1213,7 +1259,7 @@ footer .bar a {
   margin: auto;
   margin-top: 20px;
   transition: all 0.3s ease-in-out;
-  font-family: 'Kohinoor Devanagari';
+  font-family: 'allerbold';
   text-transform: none;
   font-size: 1.2em;
   -webkit-border-radius: 0px;
@@ -1234,7 +1280,6 @@ footer .bar a {
   max-width: 1350px;
   width: 100%;
   margin: 0 auto;
-  display: flex;
   flex-wrap: nowrap;
 }
 .contenedor-blog2 article {
@@ -1242,7 +1287,8 @@ footer .bar a {
   display: block;
   margin: auto;
 }
-.contenedor-blog2 p {
+.contenedor-blog2 p,
+.contenedor-blog2 li {
   text-align: justify;
   font-size: 16px;
   color: black;
@@ -1276,9 +1322,6 @@ footer .bar a {
   margin: -16px 10px;
   width: 45px;
   height: 45px;
-}
-.contenedor-blog2 ul {
-  list-style: none;
 }
 .contenedor-blog2 .comments h2 {
   font-size: 16px;
@@ -1347,7 +1390,7 @@ footer .bar a {
   margin: auto;
   margin-top: 20px;
   transition: all 0.3s ease-in-out;
-  font-family: 'Kohinoor Devanagari';
+  font-family: 'allerbold';
   text-transform: none;
   font-size: 1.2em;
   -webkit-border-radius: 0px;
@@ -1395,6 +1438,9 @@ footer .bar a {
   width: 33.33%;
   padding: 20px 30px;
 }
+.especial {
+  width: 20%;
+}
 .especial .sidebar-widget {
   display: inherit;
 }
@@ -1432,7 +1478,7 @@ footer .bar a {
   margin: auto;
   margin-top: 20px;
   transition: all 0.3s ease-in-out;
-  font-family: 'Kohinoor Devanagari';
+  font-family: 'allerbold';
   text-transform: none;
   font-size: 25px;
   -webkit-border-radius: 0px;
@@ -1475,12 +1521,19 @@ footer .bar a {
   border-bottom: 3px solid #ffac2f;
   color: #ffac2f;
 }
+.topnav a.reserva {
+  background-color: #ffac2f;
+}
 .topnav .icon {
   display: none;
 }
+/***footer academia**/
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
+  }
+  footer .topnav a:not(:first-child) {
+    display: inherit;
   }
   .topnav a.icon {
     float: right;
@@ -1502,11 +1555,44 @@ footer .bar a {
     text-align: left;
   }
 }
+#testimonios {
+  background: url(img/home/testimonio/background.jpg) no-repeat center;
+}
+#testimonios .grw-slider .wp-google-name {
+  color: white!important;
+}
+#testimonios .grw-slider .wp-google-time {
+  color: white!important;
+}
+footer .topnav {
+  border-bottom: none;
+  list-style: none;
+  padding-top: 6px;
+  padding-left: 10px;
+  padding-bottom: auto;
+  margin: auto;
+}
+footer .topnav a.reserva {
+  background-color: transparent;
+}
+footer .topnav a.active {
+  border-bottom: none;
+  color: #ffac2f;
+}
 @media screen and (max-width: 768px) {
+  #precios-academia table .total {
+    display: none;
+  }
   .content {
     float: none;
     display: block;
     width: 100%;
+  }
+  .topbar.lap {
+    display: none;
+  }
+  .topbar.movil {
+    display: inherit;
   }
   .flex.cols-3 > .column {
     width: 100%;
@@ -1580,6 +1666,7 @@ footer .bar a {
     margin-bottom: 50px;
     display: block;
     margin: auto;
+    width: 80%;
   }
   footer h2 {
     text-align: center;
@@ -1594,17 +1681,13 @@ footer .bar a {
   p.copyright {
     text-align: center;
   }
-  header .topbar {
-    padding: 20px;
-  }
   header ul.redes.flex {
     display: flex;
+    position: relative;
+    right: 20px;
   }
   header .column {
-    padding: 10px 0px;
-  }
-  header i.fas {
-    margin-right: 5px;
+    padding: 30px 10px 10px 10px;
   }
   /**HOME**/
   #salta .info {
@@ -1824,6 +1907,7 @@ footer .bar a {
     width: 100%;
   }
   #niveles-academia .bloque {
+    width: 100%;
     min-height: auto;
     margin-bottom: 30px;
   }
@@ -1831,6 +1915,134 @@ footer .bar a {
     font-size: 2em;
   }
   #niveles-academia p {
-    font-size: smaller;
+    font-size: smaller!important;
+    text-align: center;
+  }
+  #precios-academia table {
+    width: 100%;
+  }
+  #precios-academia th {
+    display: none;
+  }
+  #precios-academia tr:nth-of-type(2n) {
+    background-color: inherit;
+  }
+  #precios-academia tbody td {
+    display: block;
+    text-align: center;
+  }
+  #precios-academia tbody td:before {
+    content: attr(data-th);
+    display: block;
+    text-align: center;
+  }
+  #precios-academia td:nth-of-type(1):before {
+    content: "Salto / Nivel";
+    font-size: 23px;
+    color: #ffac2f;
+    font-family: 'allerbold';
+  }
+  #precios-academia td:nth-of-type(2):before {
+    content: "Curso de Paracaidismo Pagos Parciales";
+    font-size: 23px;
+    color: #01a9b4;
+    font-family: 'allerbold';
+  }
+  #precios-academia td:nth-of-type(3):before {
+    content: "Curso Intensivo O pago de contado";
+    font-size: 23px;
+    color: #ffac2f;
+    font-family: 'allerbold';
+  }
+  #licencia-academia .wrapper {
+    margin-top: auto;
+  }
+  #horarios-academia h2 {
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    top: 45px;
+  }
+  #beneficios.academia .beneficio {
+    min-height: 450px;
+  }
+  #beneficios.academia .beneficio.restaurante {
+    min-height: 365px;
+  }
+  #beneficios.academia .beneficio.alberca {
+    min-height: 435px;
+  }
+  #beneficios.academia .beneficio.camping {
+    background: url(img/academia/ademas/camping.png) no-repeat #eeeeee center bottom;
+    min-height: 325px;
+  }
+  #beneficios.academia .beneficio.aviones img {
+    left: -20px;
+    top: -81px;
+    margin-bottom: -96px;
+    position: relative;
+  }
+  #condiciones.academia .wrapper {
+    position: relative;
+    top: 500px;
+  }
+  #condiciones.academia table td {
+    padding: 20px;
+  }
+  #condiciones.academia::after {
+    bottom: inherit;
+    top: 674px;
+  }
+  #entrenamiento {
+    padding: 100px 10px;
+  }
+  #entrenamiento .wrapper {
+    margin-top: inherit;
+  }
+  #entrenamiento .wrapper h2 {
+    font-size: 2em;
+  }
+  #entrenamiento .wrapper h2 span:first-child {
+    left: auto;
+  }
+  #entrenamiento .wrapper h2 span:last-child {
+    right: auto;
+  }
+  #transporte-contacto {
+    padding: 0px 10px 190px 10px;
+    margin: -118px 0 0px 0;
+  }
+  #transporte-contacto h1 {
+    color: #ffac2f;
+    text-align: left;
+    font-size: 2em;
+  }
+  #comollegar-faq::after {
+    display: none;
+  }
+  #experiencia-tornado {
+    min-height: auto;
+  }
+  #experiencia-tornado h2 {
+    font-size: 2em;
+  }
+  #experiencia-tornado img {
+    width: 100%;
+    float: inherit;
+    margin-top: auto;
+    position: relative;
+    right: 55px;
+  }
+  #experiencia-tornado .info {
+    position: relative;
+  }
+  #costo-tornado .flex.cols-3 > .column {
+    margin-bottom: 30px;
+  }
+  #tornado-faq .wrapper {
+    margin-top: auto;
+  }
+  #tornado-banner {
+    padding: 100px 10px;
   }
 }

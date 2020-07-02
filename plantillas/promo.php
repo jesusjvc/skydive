@@ -12,7 +12,7 @@ get_header();
                 <img src="<?php echo get_template_directory_uri(); ?>/less/img/promo.jpg" alt="salta en paracaidas">
             </div>
             <div class="column">
-             <?php echo do_shortcode('[caldera_form id="CF587931c76c06e"]'); ?>
+             <?php echo do_shortcode('[caldera_form id="CF5ef2592017ad6"]'); ?>
             </div>
         </div>
 
@@ -44,8 +44,24 @@ get_header();
     <div class="wrapper">
         <h2>¡AVIÉNTATE TU TAMBIÉN!</h2>
         <p>Estas son las pruebas de quienes ya lo hicieron</p>
+        <?php echo do_shortcode('[instagram-feed]'); ?>
+        <a href="#paquetes" class="btn morado">!Quiero SALTAR!</a>
+    </div>
+</section>
 
-        <a href="#" class="btn morado">!Quiero SALTAR!</a>
+<section id="why">
+    <div class="wrapper">
+        <div class="flex cols-2">
+            <div class="column">
+                <h2><b>¿POR QUÉ</b> <br> SKYDIVE MÉXICO <br> TEQUESQUITENGO <br> <small> es el centro de paracaidismo #1 en el mundo en</small> <strong>SALTOS TANDEM?</strong></h2>
+            </div>
+            <div class="column">
+                <div class="info">
+                    <p>Skydive México cuenta con un <strong>récord perfecto de seguridad </strong>, esto gracias al puntual mantenimiento de nuestras aeronaves, invertimos en los mejores equipos TANDEM a nivel mundial.</p>
+                    <p>Tu seguridad es nuestra principal prioridad Para lograr altos estándares de seguridad no escatimamos gastos en mantenimientos de aviones, equipos, capacitación a instructores y personal de apoyo.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -84,12 +100,112 @@ get_header();
 </section>
 
 <section id="mejores-aviones">
-    <?php add_revslider('slider-1'); ?>
+    <?php add_revslider('aviones'); ?>
 </section>
 
 <section id="testimonios">
     <div class="wrapper">
+    <?php echo do_shortcode('[google-reviews-pro place_photo=https://lh3.googleusercontent.com/p/AF1QipNG7atRgPLnIe2F91Q5MgZKeMrggH1T5V0qMpQ-=s1600-w300-h300 place_name="Skydive México - Paracaidismo Tequesquitengo" place_id=ChIJAUB80GzUzYURx8aRtasn4Cs auto_load=true sort=3 min_filter=2 view_mode=slider slider_speed=7 open_link=true]');
+                ?>
+               
+    </div>
+</section>
 
+<section id="paquetes">
+    <div class="wrapper">
+        <h2>¿A QUÉ ALTITUD QUIERES SALTAR?</h2>
+
+        <div class="paquete uno">
+            <div class="fondo">
+                <h3>
+                    13 MIL<span>ft</span>
+                    <div class="precio">$1,590</div>
+                </h3>
+            </div>
+
+            <div class="detalles">
+                <ul>
+                    <li>30 seg de CAÍDA LIBRE</li>
+                    <li>Peso Max 90 Kg</li>
+                </ul>
+                <a href="#" class="btn rayado"><span>COMPRAR</span></a>
+            </div>
+        </div>
+        <div class="paquete dos">
+            <div class="fondo">
+                <h3>
+                    15 MIL<span>ft</span>
+                    <div class="precio">$1,890</div>
+                </h3>
+            </div>
+            <div class="detalles">
+                <ul>
+                    <li>45 seg de CAÍDA LIBRE</li>
+                    <li>Peso Max 90 Kg</li>
+                </ul>
+                <a href="#" class="btn rayado"><span>COMPRAR</span></a>
+                <div class="nota">
+                    En grupos de 12, el doceavo se lleva un salto GRATIS
+                </div>
+            </div>
+        </div>
+        <div class="paquete tres">
+            <div class="fondo">
+                <h3>
+                    17 MIL<span>ft</span>
+                    <div class="precio">$2,190</div>
+                </h3>
+            </div>
+            <div class="detalles">
+                <ul>
+                    <li>60 seg de CAÍDA LIBRE</li>
+                    <li>Peso Max 90 Kg</li>
+                </ul>
+                <a href="#" class="btn rayado"><span>COMPRAR</span></a>
+                <div class="nota">
+                    En grupos de 12, el doceavo se lleva un salto y video GRATIS
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="condiciones">
+    <div class="wrapper">
+        <h2>CONDICIONES DE SEGURIDAD</h2>
+        <ul>
+            <li>Tu peso no puede exceder los 90kg, sino existirá un costo adicional. (Lo máximo aceptable serán 110kg)</li>
+
+            <li>Los niños pueden vivir la experiencia siempre que tengan 7 años cumplidos y pesen más de 25 kilos.</li>
+
+            <li>Por seguridad, no pueden saltar personas con gripa, problemas cardiacos, fracturas o cirugías recientes, epilepsia o mujeres embarazadas.</li>
+
+            <li>Es indispensable presentar tu identificación oficial y tu comprobante de pago original en la zona de salto.</li>
+
+            <li>Recuerda que no tenemos políticas de reembolso. Si no puedes asistir por favor notifícalo 48 horas antes para agendar tu salto en otra fecha.</li>
+
+            <li>Todos nuestros precios en zona de salto aplican SIN promoción alguna.</li>
+        </ul>
+    </div>
+
+
+</section>
+
+
+
+<section id="garantia">
+    <div class="wrapper">
+        <div class="flex">
+            <div class="column">
+                <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/garantia/2.png" alt="">
+            </div>
+            <div class="column">
+                <div class="info">
+                    <p>Si al llegar a nuestras instalaciones tus expectativas de calidad, servicio o seguridad no son satisfactorias y decides realizar tu salto en otro sitio, nos comprometemos a reembolsar inmediatamente el 100 % de tu depósito que hiciste para garantizar tu reserva.</p>
+                    <p>Somas el único Centro de Paracaidismo que te ofrece esta opción de GARANTÍA DE SATISFACCIÓN y no "TE AMARRAMOS" pidiéndote depósitos no reembolsables... ¡COMPARA!</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -206,6 +322,5 @@ get_header();
         </div>
     </div>
 </section>
-
 
 <?php get_footer(); ?>

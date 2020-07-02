@@ -5,6 +5,13 @@
 // ---------------------------
 
 header {
+    .lap{
+        display: inherit;
+    }
+    .movil{
+        display: none;
+        
+    }
     .topbar {
         background: @morado;
         color: #fff;
@@ -1137,6 +1144,7 @@ footer {
 
     img.logo {
         margin-bottom: 50px;
+        width: 25%;
     }
 
     h2 {
@@ -1200,6 +1208,14 @@ footer {
             color: @naranja;
         }
     }
+    img{
+            max-width: 100%;
+    height: auto;
+    border: 0;
+    vertical-align: middle;
+    position: relative;
+    right: 55px;
+    }
 }
 /***BLOG**/
 
@@ -1260,7 +1276,7 @@ footer {
     font-weight: 600;
     text-transform: uppercase;
     }
-    p{
+    p, li{
             font-size: 16px;
     color: black;
     line-height: 1.66em;
@@ -1271,6 +1287,7 @@ footer {
     ul{
             list-style: none;
     }
+    
     img.avatar.avatar-96.photo {
     width: 10%;
     height: 11%;
@@ -1285,7 +1302,7 @@ footer {
     margin: auto;
     margin-top: 20px;
     transition: all 0.3s ease-in-out;
-    font-family: 'Kohinoor Devanagari';
+       font-family: 'allerbold';
     text-transform: none;
     font-size: 1.2em;
     -webkit-border-radius: 0px;
@@ -1313,14 +1330,14 @@ footer {
         max-width: 1350px;
     width: 100%;
     margin: 0 auto;
-    display: flex;
+  //  display: flex;
     flex-wrap: nowrap;
     article {
     padding: 30px 20px;
             display: block;
     margin: auto;
 }
-    p{
+    p, li{
         text-align: justify;
         font-size: 16px;
     color: black;
@@ -1354,7 +1371,7 @@ footer {
     height: 45px;
 }
     ul{
-        list-style: none;
+        //list-style: none;
     }
     .comments h2{
      
@@ -1435,7 +1452,7 @@ footer {
     margin: auto;
     margin-top: 20px;
     transition: all 0.3s ease-in-out;
-    font-family: 'Kohinoor Devanagari';
+       font-family: 'allerbold';
     text-transform: none;
     font-size: 1.2em;
     -webkit-border-radius: 0px;
@@ -1484,6 +1501,7 @@ footer {
     
 }
 .especial{
+        width: 20%;
     .sidebar-widget {
         display: inherit;
         div{
@@ -1525,7 +1543,7 @@ footer {
     margin: auto;
     margin-top: 20px;
     transition: all 0.3s ease-in-out;
-    font-family: 'Kohinoor Devanagari';
+        font-family: 'allerbold';
     text-transform: none;
     font-size: 25px;
     -webkit-border-radius: 0px;
@@ -1574,13 +1592,17 @@ footer {
   border-bottom: 3px solid #ffac2f;
   color: #ffac2f;
 }
-
+.topnav a.reserva {
+ background-color: #ffac2f;
+}
 .topnav .icon {
   display: none;
 }
+/***footer academia**/
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
+  footer  .topnav a:not(:first-child) {display: inherit;}
   .topnav a.icon {
     float: right;
     display: block;
@@ -1599,5 +1621,35 @@ footer {
     display: block;
     text-align: left;
   }
+    
 }
+#testimonios {
+    background: url(img/home/testimonio/background.jpg) no-repeat center;
+    .grw-slider .wp-google-name {
+    color: white!important;
+    }
+    .grw-slider .wp-google-time {
+    color: white!important;
+    }
+}
+footer{
+    .topnav {
+   
+    border-bottom: none;
+    list-style: none;
+       padding-top: 6px;
+    padding-left: 10px;
+        padding-bottom: auto;
+    margin: auto;
+}
+    .topnav a.reserva {
+    background-color: transparent;
+}
+    .topnav a.active {
+    border-bottom: none;
+    color: #ffac2f;
+  
+}
+}
+
 @import "responsive";

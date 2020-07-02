@@ -1,10 +1,19 @@
 //main: main.less
 @media screen and (max-width: 768px) {
+    #precios-academia table .total {
+    display: none;
+    }
      .content {
         float: none;
         display: block;
         width: 100%;
     }
+    .topbar.lap {
+    display: none;
+}
+    .topbar.movil {
+    display: inherit;
+  }
     .flex.cols-3 > .column {
     width: 100%;
 }
@@ -83,6 +92,7 @@ width: 100%
     margin-bottom: 50px;
     display: block;
     margin: auto;
+                 width: 80%;
 }
        h2 {
     text-align: center;
@@ -99,17 +109,19 @@ width: 100%
     text-align: center;
 }
     header{
-        .topbar {
-    padding: 20px;
-    }
+        .topbar .flex {
+   // justify-content: center;
+        }
         ul.redes.flex {
     display: flex;
+                position: relative;
+    right: 20px;
 }
         .column {
-    padding: 10px 0px;
+    padding: 30px 10px 10px 10px;
 }
         i.fas {
-    margin-right: 5px;
+ //   margin-right: 5px;
 }
     }
     
@@ -358,7 +370,7 @@ top: 335px;
     width: 100%;
 }
     #niveles-academia{ .bloque {
-    
+    width: 100%;
     min-height: auto;
     margin-bottom: 30px;
 
@@ -368,7 +380,140 @@ top: 335px;
         }
     }
          p {
-    font-size: smaller;
+    font-size: smaller!important;
+    text-align: center;
         }
     }
+    #precios-academia{
+         table {
+           width:100%;
+       }
+       th {
+           display: none;
+       }
+       tr:nth-of-type(2n) {
+           background-color: inherit;
+       }
+    
+       tbody td {
+           display: block;
+           text-align:center;
+       }
+       tbody td:before {
+           content: attr(data-th);
+           display: block;
+           text-align:center;
+       }
+       	td:nth-of-type(1):before { content: "Salto / Nivel"; font-size: 23px;
+    color: #ffac2f;    font-family: 'allerbold';}
+		td:nth-of-type(2):before { content: "Curso de Paracaidismo Pagos Parciales"; font-size: 23px;
+    color: #01a9b4; font-family: 'allerbold';}
+		 	td:nth-of-type(3):before { content: "Curso Intensivo O pago de contado"; font-size: 23px;
+    color: #ffac2f;    font-family: 'allerbold';}
+	
+		
+    }
+    #licencia-academia .wrapper {
+    margin-top: auto;
+    }
+    #horarios-academia h2 {
+    
+    font-size: 3em;
+    text-align: center;
+        position: relative;
+    top: 45px;
+    }
+    #beneficios.academia .beneficio {
+    min-height: 450px;
+}
+    #beneficios.academia .beneficio.restaurante {
+   // background: url(img/academia/ademas/restaurante.png) no-repeat #eeeeee center bottom;
+    min-height: 365px;
+}
+    #beneficios.academia .beneficio.alberca {
+   // background: url(img/academia/ademas/alberca.png) no-repeat #eeeeee center bottom;
+    min-height: 435px;
+}
+    #beneficios.academia .beneficio.camping {
+    background: url(img/academia/ademas/camping.png) no-repeat #eeeeee center bottom;
+    min-height: 325px;
+}
+    #beneficios.academia .beneficio.aviones img {
+    left: -20px;
+    top: -81px;
+    margin-bottom: -96px;
+        position: relative;
+}
+    #condiciones.academia {
+    .wrapper {
+   
+    position: relative;
+    top: 500px;
+}
+ table td {
+    padding: 20px;
+}
+    &::after {
+    bottom: inherit;
+    top: 674px;
+    }
+    }
+    #entrenamiento {
+    padding: 100px 10px;
+       .wrapper {
+    margin-top: inherit;
+            h2 {
+    font-size: 2em;
+                span:first-child {
+   
+    left: auto;
+                }
+                span:last-child {
+    right: auto;
+}
+           }
+        }
+}
+   #transporte-contacto {
+    padding: 0px 10px 190px 10px;
+    margin: -118px 0 0px 0;
+    }
+    #transporte-contacto h1 {
+    color: #ffac2f;
+    text-align: left;
+    font-size: 2em;
+}
+    #comollegar-faq::after {
+    display: none;
+    }
+    #experiencia-tornado{
+            min-height: auto;
+      h2 {
+   
+    font-size: 2em;
+        }
+        img {
+    width: 100%;
+    float: inherit;
+    margin-top: auto;
+    position: relative;
+    right: 55px;
+}
+        .info {
+    
+    position: relative;
+    }
+    }
+    #costo-tornado{
+        .flex.cols-3 > .column {
+        margin-bottom: 30px;
+        }
+    }
+    #tornado-faq .wrapper {
+    margin-top: auto;
+    }
+    #tornado-banner {
+  
+    padding: 100px 10px;
+}
 }

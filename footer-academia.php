@@ -1,5 +1,5 @@
 			<!-- footer -->
-			<footer class="footer academia" role="contentinfo">
+			<footer id="contacto" class="footer academia" role="contentinfo">
 
 			    <div class="wrapper">
 			        <h2>¡Contáctanos hoy mismo para comenzar esta aventura!</h2>
@@ -25,7 +25,8 @@
 
 			            </div>
 			            <div class="column">
-
+                            <?php echo do_shortcode( '[caldera_form id="CF588fa9af331c6"]' ); ?>
+                            
 			            </div>
 			        </div>
 			    </div>
@@ -43,7 +44,15 @@
 			                    <!-- /copyright -->
 			                </div>
 			                <div class="columns">
-
+<div class="topnav" id="myTopnav">
+ <nav class="nav" role="navigation">
+  <a href="/" class="active">INICIO</a>
+  <a href="https://skydivemexico.mx/como-llegar-a-skydive/">¿CÓMO LLEGAR?</a>
+  <a href="https://skydivemexico.mx/blog/">BLOG</a>
+  <a href="https://skydivemexico.mx/#contacto" class="reserva">CONTACTO	</a>
+ 
+   </nav>
+</div>
 			                </div>
 			            </div>
 			        </div>

@@ -33,7 +33,7 @@ get_header();
         <h2>¡AVIÉNTATE TU TAMBIÉN!</h2>
         <p>Estas son las pruebas de quienes ya lo hicieron</p>
         <?php echo do_shortcode('[instagram-feed]'); ?>
-        <a href="#" class="btn morado">!Quiero SALTAR!</a>
+        <a href="https://skydivemexico.mx/#paquetes" class="btn morado">!Quiero SALTAR!</a>
     </div>
 </section>
 
@@ -93,9 +93,9 @@ get_header();
 
 <section id="testimonios">
     <div class="wrapper">
-    <!--// <?php //echo do_shortcode('[google-reviews-pro place_photo=https://lh3.googleusercontent.com/p/AF1QipNG7atRgPLnIe2F91Q5MgZKeMrggH1T5V0qMpQ-=s1600-w300-h300 place_name="Skydive México - Paracaidismo Tequesquitengo" place_id=ChIJAUB80GzUzYURx8aRtasn4Cs auto_load=true sort=3 min_filter=2 view_mode=slider slider_speed=7 open_link=true]');
+    <?php echo do_shortcode('[google-reviews-pro place_photo=https://lh3.googleusercontent.com/p/AF1QipNG7atRgPLnIe2F91Q5MgZKeMrggH1T5V0qMpQ-=s1600-w300-h300 place_name="Skydive México - Paracaidismo Tequesquitengo" place_id=ChIJAUB80GzUzYURx8aRtasn4Cs auto_load=true sort=3 min_filter=2 view_mode=slider slider_speed=7 open_link=true]');
                 ?>
-                -->
+               
     </div>
 </section>
 
@@ -116,7 +116,7 @@ get_header();
                     <li>30 seg de CAÍDA LIBRE</li>
                     <li>Peso Max 90 Kg</li>
                 </ul>
-                <a href="#" class="btn rayado"><span>COMPRAR</span></a>
+                <a href="https://skydivemexico.mx/promociones/" class="btn rayado"><span>COMPRAR</span></a>
             </div>
         </div>
         <div class="paquete dos">
@@ -131,7 +131,7 @@ get_header();
                     <li>45 seg de CAÍDA LIBRE</li>
                     <li>Peso Max 90 Kg</li>
                 </ul>
-                <a href="#" class="btn rayado"><span>COMPRAR</span></a>
+                <a href="https://skydivemexico.mx/promociones/" class="btn rayado"><span>COMPRAR</span></a>
                 <div class="nota">
                     En grupos de 12, el doceavo se lleva un salto GRATIS
                 </div>
@@ -149,7 +149,7 @@ get_header();
                     <li>60 seg de CAÍDA LIBRE</li>
                     <li>Peso Max 90 Kg</li>
                 </ul>
-                <a href="#" class="btn rayado"><span>COMPRAR</span></a>
+                <a href="https://skydivemexico.mx/promociones/" class="btn rayado"><span>COMPRAR</span></a>
                 <div class="nota">
                     En grupos de 12, el doceavo se lleva un salto y video GRATIS
                 </div>
@@ -258,7 +258,7 @@ get_header();
                 <div class="column">
                     <div class="paquete">
                         <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/addons/4.png" alt="">
-                        <h3 class="text-right">PAQUETE <span>PREMIUN</span></h3>
+                        <h3 class="text-right">PAQUETE <span>PREMIUM</span></h3>
                         <p class="text-left"><b>INCLUYE</b></p>
                         <ul>
                             <li> Video desde la muñeca del instructor</li>
@@ -287,7 +287,7 @@ get_header();
                 </p>
             </div>
 
-            <a href="#" class="btn azul">RESERVA aqui</a>
+            <a href="https://skydivemexico.mx/promociones" class="btn azul">RESERVA aqui</a>
         </div>
     </div>
 </section>
@@ -321,14 +321,14 @@ get_header();
                 <div class="opcion">
                     <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/recomendaciones/1.png" alt="">
                     <h3><span>¿Qué hacer en</span> TEQUES? <span>Y sus alrededores</span></h3>
-                    <a href="#" class="btn azul">VER MÁS</a>
+                    <a href="https://skydivemexico.mx/blog/actividades-tequesquitengo/" class="btn azul">VER MÁS</a>
                 </div>
             </div>
             <div class="column">
                 <div class="opcion">
                      <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/recomendaciones/2.png" alt="">
                     <h3>HOTELES<span>en Tequesquitengo</span></h3>
-                    <a href="#" class="btn azul">VER MÁS</a>
+                    <a href="http://t.ly/FLZ6" class="btn azul">VER MÁS</a>
                 </div>
             </div>
         </div>

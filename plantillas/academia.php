@@ -1,16 +1,16 @@
 <?php
 /* Template Name: Academia */
-get_header();
+get_header("academia");
 ?>
 
 <div id="slide">
-    <?php  add_revslider('academia'); ?>
+    <?php add_revslider('academia'); ?>
 </div>
 
 <section id="niveles-academia">
     <div class="wrapper">
         <img src="<?php echo get_template_directory_uri(); ?>/less/img/academia/7niveles.jpg"
-            alt="7 niveles (saltos) de aprendizaje + 30 min de Túnel">
+            alt="7 niveles (saltos) de aprendizaje + 40 min de Túnel">
         <p>En el centro de Paracaidismo de Tequesquitengo, Skydive México y Academia Paracaidismo ofrecemos cursos de
             caída libre acelerada (AFF). Tu seguridad y aprendizaje son nuestros objetivos principales.</p>
 
@@ -21,6 +21,7 @@ get_header();
                     <h2>NIVEL 1</h2>
                     <p>Teoría y 1er nivel (salto).</p>
                     <p>Duración: ½ - ¾ de día. Llegar 9am.</p>
+                    <p>Incluye 4 minutos de práctica en túnel.</p>
                 </div>
             </div>
             <div class="column">
@@ -63,6 +64,7 @@ get_header();
                     <h2>NIVEL 6</h2>
                     <p>Barriles, giros, salida de clavado.
                         Duración: 3 horas.</p>
+                        <p>Incluye 6 minutos de práctica en el túnel.</p>
                 </div>
             </div>
             <div class="column">
@@ -86,18 +88,18 @@ get_header();
         </div>
 
         <div class="info">
-            <p><strong>SE INCLUYEN 30 MINUTOS DE PRÁCTICA EN EL TÚNEL DE VIENTO TORNADO.</strong></p>
+            <p><strong>SE INCLUYEN 40 MINUTOS DE PRÁCTICA EN EL TÚNEL DE VIENTO TORNADO.</strong></p>
 
             <p>Esta práctica, además de aumentar tu seguridad y confianza en caída libre, te ayuda a progresar mucho más
                 rápido en tu curso de paracaidismo. Aparte de ser una actividad divertida y única en México. <strong> ES
                     El
-                    ÚNICO CURSO EN EL MUNDO<strong> que ya incluye 30 minutos de túnel de viento, equivalentes a más de
+                ÚNICO CURSO EN EL MUNDO</strong> que ya incluye 40 minutos de túnel de viento, equivalentes a más de
                         30
                         saltos del avión!</p>
         </div>
     </div>
 </section>
-<!--
+
 <section id="precios-academia">
     <div class="wrapper">
         <h2>PRECIOS</h2>
@@ -105,62 +107,104 @@ get_header();
         <table>
             <thead>
                 <tr>
-                    <th>Salto / Nivel</th>
-                    <th>Curso de Paracaidismo <br> Pagos Parciales</th>
-                    <th>Curso Intensivo <br> O pago de contado</th>
+                    <th>Nivel</th>
+                     <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Precio por nivel repetido</th>
 
                 </tr>
             </thead>
+            <tr class="total">
+                <td colspan="2">1° práctica en túnel de viento: 4 minutos</td>
+                <td>Incluido</td>
+                <td>Incluido</td>
+
+            </tr>
             <tr class="amarillo">
-                <td>Nivel 1 / Teoria</td>
+                <td>1 y teoría</td>
+                <td>Teoría incluida y salto de introducción al curso.</td>
                 <td>$3700</td>
-                <td>$3500</td>
+                <td>$2500</td>
+
+            </tr>
+             <tr class="total">
+                <td colspan="2">2° práctica en túnel de viento: 6 minutos</td>
+                <td>Incluido</td>
+                <td>Incluido</td>
 
             </tr>
             <tr class="azul">
-                <td>Nivel 2 / Túnel de Viento 1 (6 min)</td>
+                <td>2</td>
+                <td>Primer salto con tu propio equipo.</td>
                 <td>$3700</td>
-                <td>$3500</td>
-
-            </tr>
-
-
-            <tr class="amarillo">
-                <td>Nivel 3 / Túnel de Viento 2 (8 min)</td>
-                <td>$3700</td>
-                <td>$3500</td>
-
-            </tr>
-
-            <tr class="azul">
-                <td>Nivel 4 / Túnel de Viento 3 (10 min)</td>
-                <td>$3700</td>
-                <td>$3500</td>
-
-            </tr>
-
-            <tr class="amarillo">
-                <td>Nivel 5 / Túnel de Viento 3 (6 min)</td>
-                <td>$3700</td>
-                <td>$3500</td>
-
-            </tr>
-            <tr class="azul">
-                <td>Nivel 6</td>
-                <td>$3700</td>
-                <td>$3500</td>
-
-            </tr>
-            <tr class="amarillo">
-                <td>Nivel 7</td>
-                <td>$1200</td>
-                <td>$1200</td>
+                <td>$2500</td>
 
             </tr>
             <tr class="total">
-                <td>Precio Total del Curso</td>
-                <td>$23,400</td>
-                <td>$22,200</td>
+                <td colspan="2">3° práctica en túnel de viento: 8 minutos</td>
+                <td>Incluido</td>
+                <td>Incluido</td>
+
+            </tr>
+
+
+            <tr class="amarillo">
+                <td>3</td>
+                <td>Introducción a giros y avances.</td>
+                <td>$3700</td>
+                <td>$2500</td>
+
+            </tr>
+            <tr class="total">
+                <td colspan="2">4° práctica en túnel de viento: 10 minutos</td>
+                <td>Incluido</td>
+                <td>Incluido</td>
+
+            </tr>
+            <tr class="azul">
+                <td>4</td>
+                 <td>¡Vuelo solo! Tu instructor te suelta por primera vez.</td>
+                <td>$3700</td>
+                <td>$3500</td>
+
+            </tr>
+             <tr class="total">
+                <td colspan="2">5° práctica en túnel de viento: 6 minutos</td>
+                <td>Incluido</td>
+                <td>Incluido</td>
+
+            </tr>
+            <tr class="amarillo">
+                <td>5</td>
+                <td>Salida solo, Inestabilidades y recuperación.</td>
+                <td>$3700</td>
+                <td>$2500</td>
+
+            </tr>
+            <tr class="total">
+                <td colspan="2">6° práctica en túnel de viento: 6 minutos</td>
+                <td>Incluido</td>
+                <td>Incluido</td>
+
+            </tr>
+            <tr class="azul">
+                <td>6</td>
+                <td>Niveles y salidas de mortal al frente.</td>
+                <td>$3700</td>
+                <td>$2500</td>
+
+            </tr>
+            <tr class="amarillo">
+                <td>7</td>
+                <td>¡Salto de graduación!</td>
+                <td>$2300</td>
+                <td>$2500</td>
+
+            </tr>
+            <tr class="total">
+                <td colspan="2">Precio Total (7 saltos en total)</td>
+                <td>$24,500</td>
+                <td>$17,500</td>
 
             </tr>
 
@@ -172,7 +216,7 @@ get_header();
 </section>
 
 <section id="licencia-academia">
-    <?php // add_revslider('licencia'); ?>
+    <?php add_revslider('licencia'); ?>
     <div class="wrapper">
 
         <p>
@@ -191,7 +235,7 @@ get_header();
                 2. Realizar los 7 Saltos de coacheo LICENCIA TIPO A. <br>
                 Para informes de la licencia tipo A, comunicarse al teléfono 7771306857.
 
-                </strong></p>
+                </b></p>
     </div>
 </section>
 
@@ -205,12 +249,12 @@ get_header();
             comenzar con los niveles del curso. Debemos programar una fecha que te convenga para iniciar el curso, de
             preferencia por WhatsApp (7771306857). Para los saltos, se recomienda traer ropa cómoda deportiva. La edad
             mínima para realizar el curso son 18 años y el peso máximo 100 Kg.</p>
-        <p class="justify contraste"><strong>EL CURSO ES MUY PERSONALIZADO! Podemos empezar cuando gustes, abrimos los
+        <p class="justify contraste"><strong>¡EL CURSO ES MUY PERSONALIZADO! Podemos empezar cuando gustes, abrimos los
                 365 días
                 del año.</strong></p>
     </div>
 
-    <?php // add_revslider('avion'); ?>
+    <?php add_revslider('avion'); ?>
 </section>
 
 <section id="horarios-academia">
@@ -438,7 +482,7 @@ get_header();
             </thead>
             <tr class="azul">
                 <td>Salto Individual (12,500) FT - checar*</td>
-                <td>$470</td>
+                <td>$490</td>
 
             </tr>
             <tr class="amarillo">
@@ -462,7 +506,7 @@ get_header();
             </tr>
             <tr class="azul">
                 <td>Renta de equipo X día X equipo</td>
-                <td>$1000 C/1E</td>
+                <td>$950 C/1E</td>
 
 
             </tr>
@@ -509,13 +553,13 @@ get_header();
 
             <tr class="amarillo">
                 <td>Renta de equipo de BASE X salto</td>
-                <td>$1000 C/E</td>
+                <td>$600 C/E</td>
 
 
             </tr>
             <tr class="azul">
                 <td>Vuelo Túnel de viento (2 mins: 1 vuelo) DIVER</td>
-                <td>$260</td>
+                <td>$280</td>
 
             </tr>
 
@@ -544,12 +588,12 @@ get_header();
 </section>
 
 <section id="entrenamiento">
-<?php // add_revslider('programa-entrenamiento'); ?>
+<?php add_revslider('programa-entrenamiento'); ?>
     <div class="wrapper">
         <p>Nuestro programa de entrenamiento en el túnel de viento vertical TORNADO es único en el mundo. Desarrollarás
             habilidades extraordinarias a un precio accesible y con instructores de altísimo nivel.</p>
 
-        <a href="#" class="btn naranja">CURSO TORNADO - VER FLYER PDF</a>
+        <a href="https://skydivemexico.mx/wp-content/uploads/2019/09/escuela-de-paracaidismo-flyer.pdf" class="btn naranja">CURSO TORNADO - VER FLYER PDF</a>
 
         <h2><span>ENTRENAMIENTO</span> <span>TIPO MILITAR</span></h2>
         <p>
@@ -559,10 +603,10 @@ get_header();
             instructores están altamente calificados para una instrucción óptima.
         </p>
 
-        <a href="#" class="btn naranja">ENTRENAMIENTO MILITAR - VER FLYER PDF</a>
+        <a href="https://skydivemexico.mx/wp-content/uploads/2019/04/tunel-de-viento-programa-militar-de-entrenamiento-flayer.pdf" class="btn naranja">ENTRENAMIENTO MILITAR - VER FLYER PDF</a>
     </div>
 </section>
--->
+
 <script>
     jQuery(document).ready(function ($) {
 

@@ -1,9 +1,8 @@
 			<!-- footer -->
-			<footer class="footer" role="contentinfo">
+			<footer id="contacto" class="footer" role="contentinfo">
 
 			    <div class="wrapper">
-			        <img src="<?php echo get_template_directory_uri(); ?>/less/img/logo-footer.png" alt="Logo" class="logo">
-
+			        <img src="<?php echo get_template_directory_uri(); ?>/less/img/LogosSkydive.svg" alt="Logo" class="logo">
 
 			        <div class="flex cols-2">
 			            <div class="column">
@@ -75,7 +74,15 @@
 			                    <!-- /copyright -->
 			                </div>
 			                <div class="columns">
-
+                                <div class="topnav" id="myTopnav">
+ <nav class="nav" role="navigation">
+  <a href="/" class="active">INICIO</a>
+  <a href="https://skydivemexico.mx/como-llegar-a-skydive/">¿CÓMO LLEGAR?</a>
+  <a href="https://skydivemexico.mx/blog/">BLOG</a>
+  <a href="https://skydivemexico.mx/#contacto" class="reserva">CONTACTO	</a>
+ 
+   </nav>
+</div>
 			                </div>
 			            </div>
 			        </div>

@@ -257,18 +257,56 @@ strong {
 }
 
 
-/*Formularios*/
+     .caldera-grid .form-control::placeholder, .caldera-grid .form-control, label  { 
+       
+        color: #4e3360!important;
+    
+   font-family: 'aller_lightregular'!important;
+    }
+   
+
+    .boton-enviar{
+   
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    transition: all 0.3s ease-in-out;
+    font-family: 'allerbold';
+    padding: 5px 20px !important;
+    font-size: 1.2em;
+        background: @naranja;
+            color: @morado;
+       
+
+
+        &:hover {
+           background: @morado;
+        color: @naranja;
+        }
+    }
+    div#fld_7908577_1-wrap, div#fld_5022261_1-wrap {
+    position: relative;
+    float: right;
+}
+    .caldera-grid a {
+    /* background-color: transparent; */
+    color: #4e3360;
+    font-family: 'aller_lightregular';
+       text-decoration: underline!important;
+}
+section .caldera-grid .help-block {
+    font-size: 0.7em;
+    color: #4e3360;
+    font-weight: bolder;
+}
+
 section .caldera-grid .form-control {
-    color: @negro;
+   
     height: 45px;
     font-size: 0.9em;
 }
 
-section .caldera-grid .help-block {
-    font-size: 0.7em;
-    color: #4e3360;
-    font-weight: 600;
-}
+
 
 section .caldera-grid label { 
     font-weight: 700;

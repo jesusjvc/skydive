@@ -34,10 +34,9 @@
     <!-- header -->
     <header class="header clear" role="banner">
 
-        <div class="topbar lap">
+        <div class="topbar">
            
                 <div class="flex centrado">
-                   
                     <div class="column">
                         <div class="inf">
                              <i class="fas fa-map-marker-alt"></i>
@@ -72,22 +71,6 @@
                 </div>
             
         </div>
-        <div class="topbar movil">
-           
-                <div class="flex centrado">
-                   
-        
-                    <div class="column">
-                        <div class="inf">
-                            <ul class="redes flex">
-                                <li><a href="https://www.facebook.com/skydivemexico/"><i class="fab fa-facebook-square"></i></a></li>
-                                <li><a href="https://www.instagram.com/skydivemexico/"><i class="fab fa-instagram-square"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            
-        </div>
 
         <!-- logo -->
         <div class="logo">
@@ -102,13 +85,12 @@
 <div class="topnav" id="myTopnav">
  <nav class="nav" role="navigation">
   <a href="/" class="active">INICIO</a>
-  <a href="https://skydivemexico.mx/#paquetes">PRECIOS</a>
-  <a href="https://skydivemexico.mx/transporte/">TRANSPORTE</a>
-  <a href="https://skydivemexico.mx/preguntas-frecuentes/">PREGUNTAS FRECUENTES</a>
-  <a href="https://skydivemexico.mx/como-llegar-a-skydive/">¿CÓMO LLEGAR?</a>
-  <a href="https://skydivemexico.mx/curso-de-paracaidismo/">ACADEMIA</a>
-  <a href="https://skydivemexico.mx/tornado/">TORNADO</a>
-  <a href="https://skydivemexico.mx/promociones/" class="reserva">RESERVAR	</a>
+  <a href="https://skydivemexico.mx/curso-de-paracaidismo/#precios-academia">PRECIOS</a>
+  <a href="https://skydivemexico.mx/curso-de-paracaidismo/#faq-academia">PREGUNTAS FRECUENTES</a>
+  <a href="https://skydivemexico.mx/curso-de-paracaidismo/#licencia-academia">LICENCIA TIPO A</a>
+  <a href="https://skydivemexico.mx/curso-de-paracaidismo/#condiciones">EXPERIMENTADOS</a>
+  <a href="https://skydivemexico.mx/curso-de-paracaidismo/#entrenamiento">TÚNEL DEL VIENTO</a>
+  <a href="https://skydivemexico.mx/curso-de-paracaidismo/#contacto">CONTACTO	</a>
  
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
