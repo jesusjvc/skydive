@@ -45,10 +45,10 @@ get_header();
         <h2>¡AVIÉNTATE TU TAMBIÉN!</h2>
         <p>Estas son las pruebas de quienes ya lo hicieron</p>
         <?php echo do_shortcode('[instagram-feed]'); ?>
-        <a href="#paquetes" class="btn morado">!Quiero SALTAR!</a>
+        <a href="#promo-form" class="btn morado">!Quiero SALTAR!</a>
     </div>
 </section>
-
+<!--
 <section id="why">
     <div class="wrapper">
         <div class="flex cols-2">
@@ -98,7 +98,7 @@ get_header();
         </div>
     </div>
 </section>
-
+-->
 <section id="mejores-aviones">
     <?php add_revslider('aviones'); ?>
 </section>
@@ -110,7 +110,7 @@ get_header();
                
     </div>
 </section>
-
+<!--
 <section id="paquetes">
     <div class="wrapper">
         <h2>¿A QUÉ ALTITUD QUIERES SALTAR?</h2>
@@ -208,7 +208,7 @@ get_header();
         </div>
     </div>
 </section>
-
+-->
 <section id="addons">
     <div class="wrapper">
         <h2>¡INMORTALIZA ESTA <br> INCREÍBLE EXPERIENCIA!</h2>
