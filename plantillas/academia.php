@@ -10,7 +10,7 @@ get_header("academia");
 <section id="niveles-academia">
     <div class="wrapper">
         <img src="<?php echo get_template_directory_uri(); ?>/less/img/academia/7niveles.jpg"
-            alt="7 niveles (saltos) de aprendizaje + 40 min de Túnel">
+            alt="7 niveles (saltos) de aprendizaje + 20 min de Túnel">
         <p>En el centro de Paracaidismo de Tequesquitengo, Skydive México y Academia Paracaidismo ofrecemos cursos de
             caída libre acelerada (AFF). Tu seguridad y aprendizaje son nuestros objetivos principales.</p>
 
@@ -21,7 +21,7 @@ get_header("academia");
                     <h2>NIVEL 1</h2>
                     <p>Teoría y 1er nivel (salto).</p>
                     <p>Duración: ½ - ¾ de día. Llegar 9am.</p>
-                    <p>Incluye 4 minutos de práctica en túnel.</p>
+                    
                 </div>
             </div>
             <div class="column">
@@ -37,7 +37,7 @@ get_header("academia");
                     <h2>NIVEL 3</h2>
                     <p>Introducción a giros y avances.
                         Duración: 3 horas.</p>
-                    <p>Incluye 8 minutos de práctica en el túnel.</p>
+                    <p>Incluye 4 minutos de práctica en el túnel.</p>
                 </div>
             </div>
             <div class="column">
@@ -45,7 +45,7 @@ get_header("academia");
                     <h2>NIVEL 4</h2>
                     <p>Demuestra tu habilidad para volar solo y mantener rumbo.
                         Duración: 3 horas.</p>
-                    <p>Incluye 10 minutos de práctica en el túnel.</p>
+                    <p>Incluye 6 minutos de práctica en el túnel.</p>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@ get_header("academia");
                     <h2>NIVEL 5</h2>
                     <p>Salida sin contacto y estabilidad.
                         Duración: 3 horas.</p>
-                    <p>Incluye 6 minutos de práctica en el túnel.</p>
+                    <p>Incluye 4 minutos de práctica en el túnel.</p>
                 </div>
             </div>
             <div class="column">
@@ -88,12 +88,12 @@ get_header("academia");
         </div>
 
         <div class="info">
-            <p><strong>SE INCLUYEN 40 MINUTOS DE PRÁCTICA EN EL TÚNEL DE VIENTO TORNADO.</strong></p>
+            <p><strong>SE INCLUYEN 20 MINUTOS DE PRÁCTICA EN EL TÚNEL DE VIENTO TORNADO.</strong></p>
 
             <p>Esta práctica, además de aumentar tu seguridad y confianza en caída libre, te ayuda a progresar mucho más
                 rápido en tu curso de paracaidismo. Aparte de ser una actividad divertida y única en México. <strong> ES
                     El
-                ÚNICO CURSO EN EL MUNDO</strong> que ya incluye 40 minutos de túnel de viento, equivalentes a más de
+                ÚNICO CURSO EN EL MUNDO</strong> que ya incluye 20 minutos de túnel de viento, equivalentes a más de
                         30
                         saltos del avión!</p>
         </div>
@@ -115,7 +115,7 @@ get_header("academia");
                 </tr>
             </thead>
             <tr class="total">
-                <td colspan="2">1° práctica en túnel de viento: 4 minutos</td>
+                <td colspan="2">&nbsp;</td>
                 <td>Incluido</td>
                 <td>Incluido</td>
 
@@ -141,7 +141,7 @@ get_header("academia");
 
             </tr>
             <tr class="total">
-                <td colspan="2">3° práctica en túnel de viento: 8 minutos</td>
+                <td colspan="2">3° práctica en túnel de viento: 4 minutos</td>
                 <td>Incluido</td>
                 <td>Incluido</td>
 
@@ -156,7 +156,7 @@ get_header("academia");
 
             </tr>
             <tr class="total">
-                <td colspan="2">4° práctica en túnel de viento: 10 minutos</td>
+                <td colspan="2">4° práctica en túnel de viento: 6 minutos</td>
                 <td>Incluido</td>
                 <td>Incluido</td>
 
@@ -169,7 +169,7 @@ get_header("academia");
 
             </tr>
              <tr class="total">
-                <td colspan="2">5° práctica en túnel de viento: 6 minutos</td>
+                <td colspan="2">5° práctica en túnel de viento: 4 minutos</td>
                 <td>Incluido</td>
                 <td>Incluido</td>
 
@@ -182,7 +182,7 @@ get_header("academia");
 
             </tr>
             <tr class="total">
-                <td colspan="2">6° práctica en túnel de viento: 6 minutos</td>
+                <td colspan="2">&nbsp;</td>
                 <td>Incluido</td>
                 <td>Incluido</td>
 
@@ -333,7 +333,7 @@ get_header("academia");
         <div class="flex cols-4">
             <div class="column">
                 <div class="beneficio alberca">
-                    <h3>ALBERCA <span>seguros</span></h3>
+                    <h3>ALBERCA <span>segura</span></h3>
                 </div>
             </div>
             <div class="column">

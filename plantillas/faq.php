@@ -15,7 +15,7 @@ get_header();
                 </div>
 
                 <div class="respuesta">
-                  <p>ToTodas las actividades aéreas dependen de buenas condiciones meteorológicas, que son por norma general las que tenemos aquí en Tequesquitengo y en el estado de Morelos. De cualquier forma condiciones como lluvia o vientos fuertes hacen este deporte impracticable. Si no pudiese realizar su salto por esta circunstancia puede cambiar la fecha de su salto sin ningún pago adicional. Tiene 3 meses para cambiar su reserva partiendo del día del pago de su depósito.</p>
+                  <p>Todas las actividades aéreas dependen de buenas condiciones meteorológicas, que son por norma general las que tenemos aquí en Tequesquitengo y en el estado de Morelos. De cualquier forma condiciones como lluvia o vientos fuertes hacen este deporte impracticable. Si no pudiese realizar su salto por esta circunstancia puede cambiar la fecha de su salto sin ningún pago adicional. Tiene 3 meses para cambiar su reserva partiendo del día del pago de su depósito.</p>
                 </div>
             </li>
 
