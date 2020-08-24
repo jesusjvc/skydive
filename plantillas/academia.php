@@ -593,7 +593,7 @@ get_header("academia");
         <p>Nuestro programa de entrenamiento en el túnel de viento vertical TORNADO es único en el mundo. Desarrollarás
             habilidades extraordinarias a un precio accesible y con instructores de altísimo nivel.</p>
 
-        <a href="https://skydivemexico.mx/wp-content/uploads/2019/09/escuela-de-paracaidismo-flyer.pdf" class="btn naranja">CURSO TORNADO - VER FLYER PDF</a>
+        <a href="https://skydivemexico.mx/wp-content/uploads/2020/08/2020_escuela-de-paracaidismo-flyer.pdf" class="btn naranja" target="_blank">CURSO TORNADO - VER FLYER PDF</a>
 
         <h2><span>ENTRENAMIENTO</span> <span>TIPO MILITAR</span></h2>
         <p>
@@ -603,7 +603,7 @@ get_header("academia");
             instructores están altamente calificados para una instrucción óptima.
         </p>
 
-        <a href="https://skydivemexico.mx/wp-content/uploads/2019/04/tunel-de-viento-programa-militar-de-entrenamiento-flayer.pdf" class="btn naranja">ENTRENAMIENTO MILITAR - VER FLYER PDF</a>
+        <a href="https://skydivemexico.mx/wp-content/uploads/2020/08/2020_programa-militar-de-entrenamiento-flayer.pdf" target="_blank" class="btn naranja">ENTRENAMIENTO MILITAR - VER FLYER PDF</a>
     </div>
 </section>
 
