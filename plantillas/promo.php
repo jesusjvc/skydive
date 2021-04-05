@@ -264,7 +264,7 @@ get_header();
                             <li> Video editado (4 a 6 min.)</li>
                             <li> Captura de 60 a 90 fotografías</li>
                         </ul>
-                        <div class="precio">$1350</div>
+                        <div class="precio">$1450</div>
                     </div>
                 </div>
                 <div class="column">
@@ -282,7 +282,7 @@ get_header();
                             <li> Video editado (4 a 6 min.)</li>
                             <li> Captura de 60 a 100 fotografías</li>
                         </ul>
-                        <div class="precio">$1700</div>
+                        <div class="precio">$1750</div>
                     </div>
                 </div>
             </div>

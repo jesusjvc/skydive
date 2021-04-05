@@ -252,7 +252,7 @@ get_header();
                             <li> Video editado (4 a 6 min.)</li>
                             <li> Captura de 60 a 90 fotografías</li>
                         </ul>
-                        <div class="precio">$1350</div>
+                        <div class="precio">$1450</div>
                     </div>
                 </div>
                 <div class="column">
@@ -270,7 +270,7 @@ get_header();
                             <li> Video editado (4 a 6 min.)</li>
                             <li> Captura de 60 a 100 fotografías</li>
                         </ul>
-                        <div class="precio">$1700</div>
+                        <div class="precio">$1750</div>
                     </div>
                 </div>
             </div>
@@ -281,7 +281,7 @@ get_header();
                     *La entrega de tus archivos se realizará 25 minutos después en cualquiera de tus dispositivos Android o Apple, USB, Micro SD y es importante contar con 5 G de memoria.
 
                 </p>
-                <p>*Si deseas tus archivos en USB, puedes adquirirla con nosotros por un costo adicional de $80.00 mxn.</p>
+                <p>*Si deseas tus archivos en USB, puedes adquirirla con nosotros por un costo adicional de $150.00 mxn.</p>
                 <p>
                     En caso de requerir factura, los precios no incluyen I.V.A.
                 </p>
