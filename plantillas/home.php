@@ -107,7 +107,7 @@ get_header();
             <div class="fondo">
                 <h3>
                     13 MIL<span>ft</span>
-                    <span class="snm">SNM</span>
+                    <span class="snm">sobre el nivel medio del mar</span>
                     <div class="precio">$1,590</div>
                 </h3>
             </div>
@@ -124,7 +124,7 @@ get_header();
             <div class="fondo">
                 <h3>
                     15 MIL<span>ft</span>
-                    <span class="snm">SNM</span>
+                    <span class="snm">sobre el nivel medio del mar</span>
                     <div class="precio">$1,890</div>
                 </h3>
             </div>
@@ -143,7 +143,7 @@ get_header();
             <div class="fondo">
                 <h3>
                     17 MIL<span>ft</span>
-                    <span class="snm">SNM</span>
+                    <span class="snm">sobre el nivel medio del mar</span>
                     <div class="precio">$2,190</div>
                 </h3>
             </div>

@@ -609,6 +609,7 @@ header nav ul a.active {
   margin-top: 30px;
   position: relative;
   top: 58px;
+  left: 20px;
 }
 #paquetes .paquete h3 span {
   font-size: 0.5em;
@@ -617,7 +618,7 @@ header nav ul a.active {
 #paquetes .paquete h3 span.snm {
   display: block;
   position: relative;
-  left: 95px;
+  font-size: 0.2em;
   bottom: 37px;
   margin-bottom: -48px;
 }
@@ -1829,6 +1830,7 @@ footer .topnav a.active {
     text-align: center;
     font-size: 4em;
     top: 322px;
+    left: 0;
   }
   #paquetes .paquete h3 .precio {
     width: inherit;
