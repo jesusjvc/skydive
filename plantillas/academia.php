@@ -10,7 +10,7 @@ get_header("academia");
 <section id="niveles-academia">
     <div class="wrapper">
         <img src="<?php echo get_template_directory_uri(); ?>/less/img/academia/7niveles.jpg"
-            alt="7 niveles (saltos) de aprendizaje + 20 min de Túnel">
+            alt="7 niveles (saltos) de aprendizaje + 10 min de Túnel">
         <p>En el centro de Paracaidismo de Tequesquitengo, Skydive México y Academia Paracaidismo ofrecemos cursos de
             caída libre acelerada (AFF). Tu seguridad y aprendizaje son nuestros objetivos principales.</p>
 
@@ -43,9 +43,8 @@ get_header("academia");
             <div class="column">
                 <div class="bloque">
                     <h2>NIVEL 4</h2>
-                    <p>Demuestra tu habilidad para volar solo y mantener rumbo.
-                        Duración: 3 horas.</p>
-                    <p>Incluye 6 minutos de práctica en el túnel.</p>
+                    <p>Demuestra tu habilidad para volar solo y mantener rumbo.</p>
+                    <p>Duración: 3 horas.</p>
                 </div>
             </div>
         </div>
@@ -54,23 +53,22 @@ get_header("academia");
             <div class="column">
                 <div class="bloque">
                     <h2>NIVEL 5</h2>
-                    <p>Salida sin contacto y estabilidad.
-                        Duración: 3 horas.</p>
-                    <p>Incluye 4 minutos de práctica en el túnel.</p>
+                    <p>Salida sin contacto y estabilidad.</p>
+                        <p>Duración: 3 horas.</p>
                 </div>
             </div>
             <div class="column">
                 <div class="bloque">
                     <h2>NIVEL 6</h2>
-                    <p>Barriles, giros, salida de clavado.
-                        Duración: 3 horas.</p>
-                        <p>Incluye 6 minutos de práctica en el túnel.</p>
+                    <p>Barriles, giros, salida de clavado.</p>
+                        <p>Duración: 3 horas.</p>
                 </div>
             </div>
             <div class="column">
                 <div class="bloque">
                     <h2>NIVEL 7</h2>
                     <p>Salto solo.
+                        Duración: 3 horas.
                         ¡Salto de graduación!</p>
                 </div>
             </div>
@@ -88,14 +86,11 @@ get_header("academia");
         </div>
 
         <div class="info">
-            <p><strong>SE INCLUYEN 20 MINUTOS DE PRÁCTICA EN EL TÚNEL DE VIENTO TORNADO.</strong></p>
+            <p><strong>SE INCLUYEN 10 MINUTOS DE PRÁCTICA EN EL TÚNEL DE VIENTO TORNADO.</strong></p>
 
             <p>Esta práctica, además de aumentar tu seguridad y confianza en caída libre, te ayuda a progresar mucho más
-                rápido en tu curso de paracaidismo. Aparte de ser una actividad divertida y única en México. <strong> ES
-                    El
-                ÚNICO CURSO EN EL MUNDO</strong> que ya incluye 20 minutos de túnel de viento, equivalentes a más de
-                        30
-                        saltos del avión!</p>
+                rápido en tu curso de paracaidismo. Aparte de ser una actividad divertida y única en México. <strong> ES El ÚNICO CURSO EN EL MUNDO</strong> que ya incluye 10 minutos de túnel de viento, equivalentes a más de 20 saltos del avión! También contamos con un simulador de aterrizaje, simulador de fallas y line twist. Estos 4 simuladores te ayudarán a prepárate de manera sólida y reducirán los riesgos de este deporte bajo copa y al momento de aterrizar.</p>            
+            <p>Al terminar tu curso de paracaidismo, puedes continuar con nuestro curso de traje ardilla. Pide informes.</p>
         </div>
     </div>
 </section>

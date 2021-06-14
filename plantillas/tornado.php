@@ -16,15 +16,9 @@ get_header();
         <div class="info">
             <h2>¿CÓMO <span>FUNCIONA?</span></h2>
             <h3>TORNADO</h3>
-            <p>Tornado es el único un simulador de caída libre o túnel de viento en Latinoamérica que genera una
-                corriente de aire continua que alcanza una velocidad de 270 km/h y te permitirá experimentar la
-                sensación de volar usando tu cuerpo.</p>
-            <p>El túnel de viento ¡te hará VOLAR! con 2 ventiladores que crean un flujo de aire ascendente que te
-                elevará.</p>
-            <p>Un instructor experimentado te preparará con movimientos básicos para que puedas controlar el vuelo, así
-                aprenderás a cómo cambiar la altura de tu vuelo con movimientos del cuerpo y además, entrará junto a ti
-                para estar al pendiente de que mantengas la posición correcta de tu cuerpo, así como brazos y piernas.
-            </p>
+            <p>Tornado es el único simulador de caída libre o túnel de viento en Latinoamérica que genera una corriente de aire continua que alcanza una velocidad de 270 km/h y te permitirá experimentar la sensación de volar usando tu cuerpo.</p>
+            <p>El túnel de viento ¡te hará VOLAR! con 2 ventiladores que crean un flujo de aire ascendente que te elevará.</p>
+            <p>Un instructor experimentado te preparará con movimientos básicos para que puedas controlar el vuelo, así aprenderás a cómo cambiar la altura de tu vuelo con movimientos del cuerpo y además, entrará junto a ti para estar al pendiente de que mantengas la posición correcta de tu cuerpo, así como brazos y piernas.</p>
             <p>¡Podrás volar sólo! no estarás atado al instructor mientras él controla todos los movimientos.</p>
         </div>
     </div>
@@ -82,7 +76,7 @@ get_header();
             <div class="column">
                 <div class="precio">
                     <h5>$350</h5>
-                    <p>sin reservación.</p>
+                    <p>sin reservación o alumnos de otras escuelas.</p>
                 </div>
             </div>
         </div>
