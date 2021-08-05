@@ -438,6 +438,7 @@ header nav ul a.active {
 }
 #salta.tornado .info p {
   color: #fff;
+  text-align: justify;
 }
 #instagram {
   background: url("img/home/avientate/Logo_Gris.jpg") no-repeat center;
@@ -940,6 +941,11 @@ header nav ul a.active {
   display: block;
   margin: 20px auto;
 }
+#tornado-video img.salta {
+  /* z-index: 1; */
+  display: block;
+  margin: auto;
+}
 #comollegar-faq {
   background: #eeeeee;
   position: relative;
@@ -965,6 +971,13 @@ header nav ul a.active {
   width: 100%;
   background: url("./img/academia/Niveles/bottom.png") no-repeat center bottom;
 }
+#niveles-academia h2 {
+  color: #4e3360;
+  font-size: 2em;
+}
+#niveles-academia h2 span {
+  color: #00b2ff;
+}
 #niveles-academia .bloque {
   background-color: #eeeeee;
   width: 90%;
@@ -979,7 +992,7 @@ header nav ul a.active {
   font-family: 'bebas_neuebold';
 }
 #niveles-academia .bloque.destacado p {
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 #niveles-academia .bloque h2 {
   color: #01a9b4;
@@ -1011,10 +1024,13 @@ header nav ul a.active {
 #precios-academia p {
   font-family: 'aller_lightregular';
 }
+#precios-academia .flex.cols-2 {
+  margin-bottom: 50px;
+}
 #precios-academia table {
   color: #fff;
   width: 100%;
-  text-align: left;
+  text-align: center;
 }
 #precios-academia table thead {
   color: #ffac2f;
@@ -1022,10 +1038,14 @@ header nav ul a.active {
 #precios-academia table thead th:nth-child(2) {
   color: #01a9b4;
 }
+#precios-academia table tr {
+  text-align: center;
+}
 #precios-academia table tr td {
   font-family: 'aller_lightregular';
   padding: 10px;
   font-weight: lighter;
+  text-align: center;
 }
 #precios-academia table .total {
   background-color: #01a9b4;

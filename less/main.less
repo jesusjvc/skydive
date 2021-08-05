@@ -163,7 +163,7 @@ header {
         left: 340px;
         top: 140px;
         width: 600px;
-
+        
         .text {
             position: absolute;
             left: -45px;
@@ -229,7 +229,7 @@ header {
             top: 127px;
             z-index: 1;
         }
-
+    
         .info {
             top: 165px;
 
@@ -254,6 +254,8 @@ header {
 
             p {
                 color: #fff;
+                text-align: justify;
+        
             }
 
         }
@@ -904,7 +906,14 @@ header {
         margin: 20px auto;
     }
 }
-
+#tornado-video{
+img.salta {
+    /* z-index: 1; */
+  display: block;
+    margin: auto;
+}
+    
+}
 // ---------------------------
 // Cómo llegar
 // ---------------------------
@@ -941,7 +950,13 @@ header {
         width: 100%;
         background: url("./img/academia/Niveles/bottom.png") no-repeat center bottom;
     }
-
+     h2 {
+        color: @morado;
+          font-size: 2em;
+         span{
+             color: @azul-3;
+         }
+    }
     .bloque {
         background-color: @gris;
         width: 90%;
@@ -956,7 +971,7 @@ header {
             font-family: 'bebas_neuebold';
 
             p {
-                font-size: 1.4em;
+                font-size: 1.3em;
             }
         }
 
@@ -1000,11 +1015,13 @@ header {
     p {
         font-family: 'aller_lightregular';
     }
-
+   .flex.cols-2 {
+    margin-bottom: 50px;
+}
     table {
         color: #fff;
         width: 100%;
-        text-align: left;
+        text-align: center;
 
         thead {
             color: @naranja;
@@ -1013,11 +1030,15 @@ header {
                 color: @azul-2;
             }
         }
+        tr {
+    text-align: center;
+}
 
         tr td {
             font-family: 'aller_lightregular';
             padding: 10px;
             font-weight: lighter;
+            text-align: center;
         }
 
         .total {
