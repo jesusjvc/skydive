@@ -229,7 +229,7 @@ get_header();
                             <li> Tomas del aterrizaje</li>
                             <li> Video editado (3 a 5 min.)</li>
                         </ul>
-                        <div class="precio">$850</div>
+                        <div class="precio">$950</div>
                     </div>
                 </div>
                 <div class="column">
@@ -246,7 +246,7 @@ get_header();
                             <li> Video editado (3 a 5 min.)</li>
                             <li> Captura de 60 a 90 fotografías</li>
                         </ul>
-                        <div class="precio">$1000</div>
+                        <div class="precio">$1,200</div>
                     </div>
                 </div>
             </div>
@@ -264,13 +264,13 @@ get_header();
                             <li> Video editado (4 a 6 min.)</li>
                             <li> Captura de 60 a 90 fotografías</li>
                         </ul>
-                        <div class="precio">$1450</div>
+                        <div class="precio">$1,650</div>
                     </div>
                 </div>
                 <div class="column">
                     <div class="paquete">
                         <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/addons/4.png" alt="">
-                        <h3 class="text-right">PAQUETE <span>PREMIUN</span></h3>
+                        <h3 class="text-right">PAQUETE <span>PREMIUM</span></h3>
                         <p class="text-left"><b>INCLUYE</b></p>
                         <ul>
                             <li> Video desde la muñeca del instructor</li>
@@ -282,7 +282,7 @@ get_header();
                             <li> Video editado (4 a 6 min.)</li>
                             <li> Captura de 60 a 100 fotografías</li>
                         </ul>
-                        <div class="precio">$1750</div>
+                        <div class="precio">$1,890</div>
                     </div>
                 </div>
             </div>

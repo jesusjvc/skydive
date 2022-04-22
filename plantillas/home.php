@@ -108,7 +108,7 @@ get_header();
                 <h3>
                     13 MIL<span>ft</span>
                     <span class="snm">sobre el nivel medio del mar</span>
-                    <div class="precio">$1,590</div>
+                    <div class="precio">$1,690</div>
                 </h3>
             </div>
 
@@ -125,7 +125,7 @@ get_header();
                 <h3>
                     15 MIL<span>ft</span>
                     <span class="snm">sobre el nivel medio del mar</span>
-                    <div class="precio">$1,890</div>
+                    <div class="precio">$2,190</div>
                 </h3>
             </div>
             <div class="detalles">
@@ -144,7 +144,7 @@ get_header();
                 <h3>
                     17 MIL<span>ft</span>
                     <span class="snm">sobre el nivel medio del mar</span>
-                    <div class="precio">$2,190</div>
+                    <div class="precio">$2,490</div>
                 </h3>
             </div>
             <div class="detalles">
@@ -220,7 +220,7 @@ get_header();
                             <li> Tomas del aterrizaje</li>
                             <li> Video editado (3 a 5 min.)</li>
                         </ul>
-                        <div class="precio">$850</div>
+                        <div class="precio">$950</div>
                     </div>
                 </div>
                 <div class="column">
@@ -237,7 +237,7 @@ get_header();
                             <li> Video editado (3 a 5 min.)</li>
                             <li> Captura de 60 a 90 fotografías</li>
                         </ul>
-                        <div class="precio">$1000</div>
+                        <div class="precio">$1,200</div>
                     </div>
                 </div>
             </div>
@@ -255,7 +255,7 @@ get_header();
                             <li> Video editado (4 a 6 min.)</li>
                             <li> Captura de 60 a 90 fotografías</li>
                         </ul>
-                        <div class="precio">$1450</div>
+                        <div class="precio">$1,650</div>
                     </div>
                 </div>
                 <div class="column">
@@ -273,7 +273,7 @@ get_header();
                             <li> Video editado (4 a 6 min.)</li>
                             <li> Captura de 60 a 100 fotografías</li>
                         </ul>
-                        <div class="precio">$1750</div>
+                        <div class="precio">$1,890</div>
                     </div>
                 </div>
             </div>
