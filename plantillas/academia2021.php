@@ -189,58 +189,58 @@ Toma en cuenta que la duración de la clase teórica es de 3 a 4 horas. Los salt
 
             <tr class="amarillo">
                 <td>Nivel 1</td>
-                <td>$3,700</td>
-                <td>$3,700</td>
+                <td>$4,000</td>
+                <td>$4,000</td>
                
 
             </tr>
              <tr class="amarillo">
                 <td>Nivel 2</td>
-                <td>$3,700</td>
-                <td>$3,700</td>
+                <td>$4,000</td>
+                <td>$4,000</td>
                
 
             </tr>
             <tr class="amarillo">
                 <td>Nivel 3</td>
-                <td>$3,700</td>
-                <td>$3,700</td>
+                <td>$4,000</td>
+                <td>$4,000</td>
                
 
             </tr>
             <tr class="amarillo">
                 <td>Nivel 4</td>
-                <td>$3,700</td>
-                <td>$3,700</td>
+                <td>$4,000</td>
+                <td>$4,000</td>
                
 
             </tr>
             <tr class="amarillo">
                 <td>Nivel 5</td>
-                <td>$3,700</td>
-                <td>$3,700</td>
+                <td>$4,000</td>
+                <td>$4,000</td>
                
 
             </tr>
             <tr class="amarillo">
                 <td>Nivel 6</td>
-                <td>$3,700</td>
-                <td>$3,700</td>
+                <td>$4,000</td>
+                <td>$4,000</td>
                
 
             </tr>
             <tr class="amarillo">
                 <td>Nivel 7</td>
-                <td>$3,600</td>
-                <td>$2,300</td>
+                <td>$2,500</td>
+                <td>$1,500</td>
                
 
             </tr>
            
             <tr class="total">
                 <td>Total</td>
-                <td>$25,800</td>
-                <td>$24,500</td>
+                <td>$26,500</td>
+                <td>$25,000</td>
 
             </tr>
 
