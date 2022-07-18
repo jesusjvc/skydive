@@ -513,8 +513,10 @@ header nav ul a.active {
 }
 #beneficios .beneficio h2 {
   color: #01a9b4;
-  font-size: 2.5em;
+  font-size: 1.7em;
   line-height: 1em;
+  position: relative;
+  top: 20px;
 }
 #beneficios .beneficio h2 span {
   font-family: 'allerbold';
@@ -1811,7 +1813,7 @@ footer .topnav a.active {
     margin-bottom: 115px;
   }
   #beneficios .beneficio h2 {
-    font-size: 2em;
+    font-size: 1.6em;
   }
   #beneficios .column:nth-child(2) img {
     top: -93px;

@@ -23,7 +23,7 @@ get_header();
             </p>
             <p>Podrás vivir la indescriptible emoción de volar y aterrizar suavemente después de un placentero planeo de cinco minutos con tu paracaídas abierto.</p>
             <p><strong>TU SALTO SERÁ LA MEJOR EXPERIENCIA QUE VIVIRÁS CON LA ROPA PUESTA.</strong></p>
-            <p>El salto tándem es el método de entrenamiento más importante para aquellos que lo hacen por primera vez, haciendo que este deporte extremo sea accesible para millones de personas alrededor del mundo. En tu salto tándem irás acompañado por un instructor certificado quien te guiará en todo momento.</p>
+            <p>El salto tándem es el método de entrenamiento más importante para aquellos que lo hacen por primera vez, haciendo que este deporte extremo sea accesible para millones de personas alrededor del mundo. En tu salto tándem irás acompañado por un instructor experimentado quien te guiará en todo momento.</p>
         </div>
     </div>
 </section>
@@ -41,7 +41,7 @@ get_header();
     <div class="wrapper">
         <div class="flex cols-2">
             <div class="column">
-                <h2><b>¿POR QUÉ</b> <br> SKYDIVE MÉXICO <br> TEQUESQUITENGO <br> <small> es el centro de paracaidismo #1 en el mundo en</small> <strong>SALTOS TANDEM?</strong></h2>
+                <h2><b>¿POR QUÉ</b> <br> SKYDIVE MÉXICO <br> TEQUESQUITENGO <br> <small> es el centro de paracaidismo en</small> <strong>SALTOS TANDEM?</strong></h2>
             </div>
             <div class="column">
                 <div class="info">
@@ -69,8 +69,8 @@ get_header();
             <div class="column">
                 <div class="beneficio">
                     <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/Beneficios/2.png" alt="salta en paracaidas">
-                    <h2>INSTRUCTORES <span>certificados</span></h2>
-                    <p>Instructores certificados y súper experimentados. Para garantizar tu seguridad todos los instructores de Skydive México pasan por una serie de rigurosas capacitaciones.</p>
+                    <h2>INSTRUCTORES <span>experimentados</span></h2>
+                    <p>Los instructores Tandem que colaboran en SKYDIVE MÉXICO, cuentan con años  de experiencia y participan en cursos de seguridad y procedimientos de emergencia periódicos. Su salud y condiciones físicas son revisados  por paramédicos certificados antes de iniciar actividades y durante el desarrollo de los vuelos.</p>
                 </div>
             </div>
             <div class="column">
@@ -297,7 +297,7 @@ get_header();
     <div class="wrapper">
         <div class="flex cols-70-30">
             <div class="column">
-                <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/Advertencia/2.png" alt="">
+               
             </div>
             <div class="column">
                 <div class="info text-left">

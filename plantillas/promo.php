@@ -35,7 +35,7 @@ get_header();
             </p>
             <p>Podrás vivir la indescriptible emoción de volar y aterrizar suavemente después de un placentero planeo de cinco minutos con tu paracaídas abierto.</p>
             <p><strong>TU SALTO SERÁ LA MEJOR EXPERIENCIA QUE VIVIRÁS CON LA ROPA PUESTA.</strong></p>
-            <p>El salto tándem es el método de entrenamiento más importante para aquellos que lo hacen por primera vez, haciendo que este deporte extremo sea accesible para millones de personas alrededor del mundo. En tu salto tándem irás acompañado por un instructor certificado quien te guiará en todo momento.</p>
+            <p>El salto tándem es el método de entrenamiento más importante para aquellos que lo hacen por primera vez, haciendo que este deporte extremo sea accesible para millones de personas alrededor del mundo. En tu salto tándem irás acompañado por un instructor experimentado quien te guiará en todo momento.</p>
         </div>
     </div>
 </section>
@@ -297,7 +297,7 @@ get_header();
                
             </div>
 
-            <a href="#" class="btn azul">RESERVA aqui</a>
+            <a href="#promo-form" class="btn azul">RESERVA aqui</a>
         </div>
     </div>
 </section>
@@ -306,7 +306,7 @@ get_header();
     <div class="wrapper">
         <div class="flex cols-70-30">
             <div class="column">
-                <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/Advertencia/2.png" alt="">
+               
             </div>
             <div class="column">
                 <div class="info text-left">
