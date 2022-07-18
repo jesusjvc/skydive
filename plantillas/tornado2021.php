@@ -31,26 +31,22 @@ get_header();
         <h2>PRECIOS</h2>
         
          <div class="flex cols-2">
-            <div class="column"><a href="https://skydivemexico.mx/wp-content/uploads/2021/07/PreciosAdv.pdf" target="_blank" class="btn naranja">PARA EXPERIMENTADOS</a></div>
+            <div class="column"><a href="https://skydivemexico.mx/wp-content/uploads/2021/10/PreciosAdv-1.pdf" target="_blank" class="btn naranja">PARA EXPERIMENTADOS</a></div>
             <div class="column"><a href="#tornado-reserva" class="btn naranja">RESERVA AHORA</a></div>
         </div>
         
         <div class="flex cols-3">
             <div class="column">
                 <div class="precio">
-                    <h5>$280 MXN</h5>
+                    <h5>$350 MXN</h5>
                     <p>Con reservación o si realizaste un salto tandem.</p>
                 </div>
             </div>
+           <div class="column">
+           </div>
             <div class="column">
                 <div class="precio">
-                    <h5>$300 MXN</h5>
-                    <p>Acompañantes del pasajero que saltó en tandem.</p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="precio">
-                    <h5>$350 MXN</h5>
+                    <h5>$400 MXN</h5>
                     <p>Sin reservación o alumnos de otras escuelas.</p>
                 </div>
             </div>

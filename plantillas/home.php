@@ -285,9 +285,7 @@ get_header();
 
                 </p>
                 <p>*Si deseas tus archivos en USB, puedes adquirirla con nosotros por un costo adicional de $150.00 mxn.</p>
-                <p>
-                    En caso de requerir factura, los precios no incluyen I.V.A.
-                </p>
+               
             </div>
 
             <a href="https://skydivemexico.mx/promociones" class="btn azul">RESERVA aqui</a>
