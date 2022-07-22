@@ -3,6 +3,19 @@
     #precios-academia table .total {
     display: none;
     }
+    #precios-academia .tablaresponsive{
+        display: inherit;
+        h3,p{
+            text-align: center;
+        }
+        h3{
+            color: #01a9b4;
+            font-size: 45px;
+        }
+        p{
+            font-size: 24px;
+        }
+    }
      .content {
         float: none;
         display: block;
@@ -388,6 +401,14 @@ top: 335px;
     #precios-academia{
          table {
            width:100%;
+             &.responsive{
+                 td:nth-of-type(1):before { content: "Nivel"; font-size: 23px;
+    color: #ffac2f;    font-family: 'allerbold';}
+		td:nth-of-type(2):before { content: "Curso de Paracaidismo Pagos Parciales"; font-size: 23px;
+    color: #01a9b4; font-family: 'allerbold';}
+		 	td:nth-of-type(3):before { content: "Curso Intensivo O pago de contado"; font-size: 23px;
+    color: #ffac2f;    font-family: 'allerbold';}
+             }
        }
        th {
            display: none;
@@ -404,7 +425,8 @@ top: 335px;
            content: attr(data-th);
            display: block;
            text-align:center;
-       }
+        }
+        
        	td:nth-of-type(1):before { content: "Salto / Nivel"; font-size: 23px;
     color: #ffac2f;    font-family: 'allerbold';}
 		td:nth-of-type(2):before { content: "Curso de Paracaidismo Pagos Parciales"; font-size: 23px;

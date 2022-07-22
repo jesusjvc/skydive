@@ -237,7 +237,7 @@ Toma en cuenta que la duración de la clase teórica es de 3 a 4 horas. Los salt
 
             </tr>
            
-            <tr class="total">
+            <tr class="total ">
                 <td>Total</td>
                 <td>$29,500</td>
                 <td>$27,500</td>
@@ -246,7 +246,11 @@ Toma en cuenta que la duración de la clase teórica es de 3 a 4 horas. Los salt
 
         </table>
         
-
+        <div class="tablaresponsive">
+        <h3>Total</h3>
+        <p>Precio Normal: $29,500</p>
+        <p>Precio Curso Intensivo: $27,500</p>
+        </div>
         <p>Pregunta por nuestras promociones. Comunícate al <strong>7771306857</strong> para más información y agendar
             tu curso (WhatsApp). </p>
     </div>

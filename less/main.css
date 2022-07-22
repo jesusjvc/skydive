@@ -1029,6 +1029,9 @@ header nav ul a.active {
 #precios-academia .flex.cols-2 {
   margin-bottom: 50px;
 }
+#precios-academia .tablaresponsive {
+  display: none;
+}
 #precios-academia table {
   color: #fff;
   width: 100%;
@@ -1613,6 +1616,20 @@ footer .topnav a.active {
   #precios-academia table .total {
     display: none;
   }
+  #precios-academia .tablaresponsive {
+    display: inherit;
+  }
+  #precios-academia .tablaresponsive h3,
+  #precios-academia .tablaresponsive p {
+    text-align: center;
+  }
+  #precios-academia .tablaresponsive h3 {
+    color: #01a9b4;
+    font-size: 45px;
+  }
+  #precios-academia .tablaresponsive p {
+    font-size: 24px;
+  }
   .content {
     float: none;
     display: block;
@@ -1951,6 +1968,24 @@ footer .topnav a.active {
   }
   #precios-academia table {
     width: 100%;
+  }
+  #precios-academia table.responsive td:nth-of-type(1):before {
+    content: "Nivel";
+    font-size: 23px;
+    color: #ffac2f;
+    font-family: 'allerbold';
+  }
+  #precios-academia table.responsive td:nth-of-type(2):before {
+    content: "Curso de Paracaidismo Pagos Parciales";
+    font-size: 23px;
+    color: #01a9b4;
+    font-family: 'allerbold';
+  }
+  #precios-academia table.responsive td:nth-of-type(3):before {
+    content: "Curso Intensivo O pago de contado";
+    font-size: 23px;
+    color: #ffac2f;
+    font-family: 'allerbold';
   }
   #precios-academia th {
     display: none;
