@@ -189,8 +189,8 @@ Toma en cuenta que la duración de la clase teórica es de 3 a 4 horas. Los salt
 
             <tr class="amarillo">
                 <td>Nivel 1</td>
-                <td>$4,000</td>
-                <td>$4,000</td>
+                <td>$5,500</td>
+                <td>$5,500</td>
                
 
             </tr>
@@ -231,16 +231,16 @@ Toma en cuenta que la duración de la clase teórica es de 3 a 4 horas. Los salt
             </tr>
             <tr class="amarillo">
                 <td>Nivel 7</td>
-                <td>$2,500</td>
-                <td>$1,500</td>
+                <td>$4,000</td>
+                <td>$2,000</td>
                
 
             </tr>
            
             <tr class="total">
                 <td>Total</td>
-                <td>$26,500</td>
-                <td>$25,000</td>
+                <td>$29,500</td>
+                <td>$27,500</td>
 
             </tr>
 
