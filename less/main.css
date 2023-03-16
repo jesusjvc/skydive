@@ -1194,6 +1194,13 @@ footer .bar {
 footer .bar a {
   color: #ffac2f;
 }
+footer .iconosmapa {
+  padding: 0 30px;
+}
+footer .iconosmapa .column {
+  margin: auto;
+  text-align: center;
+}
 #promo-form {
   background-color: #eeeeee;
   padding: 100px 0 150px 0;
@@ -1724,6 +1731,13 @@ footer .topnav a.active {
   }
   footer .mapa {
     padding: inherit;
+  }
+  footer .iconosmapa {
+    display: flex;
+    padding: inherit;
+  }
+  footer .iconosmapa .column {
+    width: 50%;
   }
   p.copyright {
     text-align: center;

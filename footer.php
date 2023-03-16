@@ -59,6 +59,16 @@
 			                <div class="info mapa">
 			                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.3630393656745!2d-99.26685768462369!3d18.647698070139644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd46cd07c4001%3A0x2be027abb591c6c7!2sSkydive%20M%C3%A9xico%20-%20Paracaidismo%20Tequesquitengo!5e0!3m2!1ses-419!2smx!4v1589478024980!5m2!1ses-419!2smx" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			                </div>
+			                <div class="flex iconosmapa">
+                          
+			            <div class="column ">
+                              <a href="https://maps.app.goo.gl/X2bEhwRs7YB9SU867"><img src="<?php echo get_template_directory_uri(); ?>/less/img/google.svg" alt="google"  width="80" height="100"></a>
+                               </div>
+                                <div class="column ">
+                              <a href="https://waze.com/ul/h9g36j4vmq"><img src="<?php echo get_template_directory_uri(); ?>/less/img/waze.svg" alt="waze" width="80" height="100"></a>
+                               </div>
+                              
+                            </div>
 			            </div>
 			        </div>
 			    </div>
