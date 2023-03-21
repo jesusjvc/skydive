@@ -62,10 +62,10 @@
 			                <div class="flex iconosmapa">
                           
 			            <div class="column ">
-                              <a href="https://maps.app.goo.gl/X2bEhwRs7YB9SU867"><img src="<?php echo get_template_directory_uri(); ?>/less/img/google.svg" alt="google"  width="80" height="100"></a>
+                              <a href="https://maps.app.goo.gl/X2bEhwRs7YB9SU867"><img src="<?php echo get_template_directory_uri(); ?>/less/img/google.svg" alt="google"  width="50" height="50"></a>
                                </div>
                                 <div class="column ">
-                              <a href="https://waze.com/ul/h9g36j4vmq"><img src="<?php echo get_template_directory_uri(); ?>/less/img/waze.svg" alt="waze" width="80" height="100"></a>
+                              <a href="https://waze.com/ul/h9g36j4vmq"><img src="<?php echo get_template_directory_uri(); ?>/less/img/waze.svg" alt="waze" width="50" height="50"></a>
                                </div>
                               
                             </div>
