@@ -1642,6 +1642,14 @@ footer .topnav a.active {
   color: #ffac2f;
 }
 @media screen and (max-width: 768px) {
+  #promo-form img {
+    display: block;
+    margin: 0 auto;
+    position: static;
+  }
+  #packs .column {
+    margin-bottom: 120px;
+  }
   #precios-academia table .total {
     display: none;
   }
@@ -1999,7 +2007,7 @@ footer .topnav a.active {
     font-size: 2em;
   }
   #niveles-academia p {
-    font-size: smaller!important;
+    font-size: smaller !important;
     text-align: center;
   }
   #precios-academia table {

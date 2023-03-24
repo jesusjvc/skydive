@@ -119,7 +119,7 @@ get_header();
                 </ul>
                 <a href="https://skydivemexico.mx/promociones/" class="btn rayado"><span>COMPRAR</span></a>
                 <div class="pleca naranja">
-                    Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                    Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1,950. Aceptamos VISA y Mastercard.
                 </div>
             </div>
         </div>
@@ -139,7 +139,7 @@ get_header();
                 </ul>
                 <a href="https://skydivemexico.mx/promociones/" class="btn rayado"><span>COMPRAR</span></a>
                 <div class="pleca naranja">
-                    Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                    Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $2,370. Aceptamos VISA y Mastercard.
                 </div>
                 <div class="pleca purple">
                     ¡En grupos de 12, el doceavo se lleva un salto GRATIS!
@@ -162,7 +162,7 @@ get_header();
                 </ul>
                 <a href="https://skydivemexico.mx/promociones/" class="btn rayado"><span>COMPRAR</span></a>
                 <div class="pleca naranja">
-                    Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                    Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $2,890. Aceptamos VISA y Mastercard.
                 </div>
                 <div class="pleca purple">
                     ¡En grupos de 12, el doceavo se lleva un salto GRATIS!
@@ -237,7 +237,7 @@ get_header();
                     </div>
 
                     <div class="pleca naranja">
-                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1,000. Aceptamos VISA y Mastercard.
                     </div>
 
                 </div>
@@ -258,7 +258,7 @@ get_header();
                         <div class="precio">$1,200</div>
                     </div>
                     <div class="pleca naranja">
-                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1,300. Aceptamos VISA y Mastercard.
                     </div>
 
                 </div>
@@ -282,7 +282,7 @@ get_header();
                         <div class="precio">$1,650</div>
                     </div>
                     <div class="pleca naranja">
-                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1,750. Aceptamos VISA y Mastercard.
                     </div>
                 </div>
 
@@ -304,7 +304,7 @@ get_header();
                         <div class="precio">$1,890</div>
                     </div>
                     <div class="pleca naranja">
-                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1,990. Aceptamos VISA y Mastercard.
                     </div>
                 </div>
             </div>

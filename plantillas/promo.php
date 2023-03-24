@@ -215,7 +215,9 @@ get_header();
         <p>Esta memorable vivencia, se puede preservar si contratas el servicio de grabación en donde se capta la secuencia de todo tu salto, desde la preparación hasta su aterrizaje. Sabemos que aventarte y no grabar la experiencia sería imperdonable. Nuestros servicios de fotografía y vídeo puedes contratarlos directamente en zona de salto.</p>
 
         <div id="packs">
+
             <div class="flex cols-2">
+
                 <div class="column">
                     <div class="paquete">
                         <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/addons/1.png" alt="">
@@ -231,7 +233,11 @@ get_header();
                         </ul>
                         <div class="precio">$950</div>
                     </div>
+                    <div class="pleca naranja">
+                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1,000. Aceptamos VISA y Mastercard.
+                    </div>
                 </div>
+
                 <div class="column">
                     <div class="paquete">
                         <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/addons/2.png" alt="">
@@ -247,6 +253,9 @@ get_header();
                             <li> Captura de 60 a 90 fotografías</li>
                         </ul>
                         <div class="precio">$1,200</div>
+                    </div>
+                    <div class="pleca naranja">
+                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1,300. Aceptamos VISA y Mastercard.
                     </div>
                 </div>
             </div>
@@ -266,6 +275,9 @@ get_header();
                         </ul>
                         <div class="precio">$1,650</div>
                     </div>
+                    <div class="pleca naranja">
+                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1,750. Aceptamos VISA y Mastercard.
+                    </div>
                 </div>
                 <div class="column">
                     <div class="paquete">
@@ -283,6 +295,9 @@ get_header();
                             <li> Captura de 60 a 100 fotografías</li>
                         </ul>
                         <div class="precio">$1,890</div>
+                    </div>
+                    <div class="pleca naranja">
+                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1,990. Aceptamos VISA y Mastercard.
                     </div>
                 </div>
             </div>
