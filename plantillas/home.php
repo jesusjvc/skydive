@@ -1,6 +1,6 @@
-<?php 
-/* Template Name: Home */ 
-get_header(); 
+<?php
+/* Template Name: Home */
+get_header();
 ?>
 
 <div id="slide">
@@ -70,7 +70,7 @@ get_header();
                 <div class="beneficio">
                     <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/Beneficios/2.png" alt="salta en paracaidas">
                     <h2>INSTRUCTORES <span>experimentados</span></h2>
-                    <p>Los instructores Tandem que colaboran en SKYDIVE MÉXICO, cuentan con años  de experiencia y participan en cursos de seguridad y procedimientos de emergencia periódicos. Su salud y condiciones físicas son revisados  por paramédicos certificados antes de iniciar actividades y durante el desarrollo de los vuelos.</p>
+                    <p>Los instructores Tandem que colaboran en SKYDIVE MÉXICO, cuentan con años de experiencia y participan en cursos de seguridad y procedimientos de emergencia periódicos. Su salud y condiciones físicas son revisados por paramédicos certificados antes de iniciar actividades y durante el desarrollo de los vuelos.</p>
                 </div>
             </div>
             <div class="column">
@@ -93,9 +93,9 @@ get_header();
 
 <section id="testimonios">
     <div class="wrapper">
-    <?php echo do_shortcode('[google-reviews-pro place_photo=https://lh3.googleusercontent.com/p/AF1QipNG7atRgPLnIe2F91Q5MgZKeMrggH1T5V0qMpQ-=s1600-w300-h300 place_name="Skydive México - Paracaidismo Tequesquitengo" place_id=ChIJAUB80GzUzYURx8aRtasn4Cs auto_load=true sort=3 min_filter=2 view_mode=slider slider_speed=7 open_link=true]');
-                ?>
-               
+        <?php echo do_shortcode('[google-reviews-pro place_photo=https://lh3.googleusercontent.com/p/AF1QipNG7atRgPLnIe2F91Q5MgZKeMrggH1T5V0qMpQ-=s1600-w300-h300 place_name="Skydive México - Paracaidismo Tequesquitengo" place_id=ChIJAUB80GzUzYURx8aRtasn4Cs auto_load=true sort=3 min_filter=2 view_mode=slider slider_speed=7 open_link=true]');
+        ?>
+
     </div>
 </section>
 
@@ -118,7 +118,7 @@ get_header();
                     <li>Peso Max 90 Kg</li>
                 </ul>
                 <a href="https://skydivemexico.mx/promociones/" class="btn rayado"><span>COMPRAR</span></a>
-                <div class="nota">
+                <div class="pleca naranja">
                     Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
                 </div>
             </div>
@@ -138,10 +138,10 @@ get_header();
                     <li>Peso Max 90 Kg</li>
                 </ul>
                 <a href="https://skydivemexico.mx/promociones/" class="btn rayado"><span>COMPRAR</span></a>
-                <div class="nota">
+                <div class="pleca naranja">
                     Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
                 </div>
-                <div class="nota purple">
+                <div class="pleca purple">
                     ¡En grupos de 12, el doceavo se lleva un salto GRATIS!
                 </div>
             </div>
@@ -161,10 +161,10 @@ get_header();
                     <li>Peso Max 90 Kg</li>
                 </ul>
                 <a href="https://skydivemexico.mx/promociones/" class="btn rayado"><span>COMPRAR</span></a>
-                <div class="nota">
+                <div class="pleca naranja">
                     Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
                 </div>
-                <div class="nota purple">
+                <div class="pleca purple">
                     ¡En grupos de 12, el doceavo se lleva un salto GRATIS!
                 </div>
             </div>
@@ -217,7 +217,9 @@ get_header();
         <p>Esta memorable vivencia, se puede preservar si contratas el servicio de grabación en donde se capta la secuencia de todo tu salto, desde la preparación hasta su aterrizaje. Sabemos que aventarte y no grabar la experiencia sería imperdonable. Nuestros servicios de fotografía y vídeo puedes contratarlos directamente en zona de salto.</p>
 
         <div id="packs">
+
             <div class="flex cols-2">
+
                 <div class="column">
                     <div class="paquete">
                         <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/addons/1.png" alt="">
@@ -233,10 +235,11 @@ get_header();
                         </ul>
                         <div class="precio">$950</div>
                     </div>
-                    <div class="nota">
-                    Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
-                </div>
-                    
+
+                    <div class="pleca naranja">
+                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                    </div>
+
                 </div>
                 <div class="column">
                     <div class="paquete">
@@ -254,10 +257,15 @@ get_header();
                         </ul>
                         <div class="precio">$1,200</div>
                     </div>
-                
+                    <div class="pleca naranja">
+                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                    </div>
+
                 </div>
             </div>
+
             <div class="flex cols-2">
+
                 <div class="column">
                     <div class="paquete">
                         <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/addons/3.png" alt="">
@@ -273,7 +281,11 @@ get_header();
                         </ul>
                         <div class="precio">$1,650</div>
                     </div>
+                    <div class="pleca naranja">
+                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                    </div>
                 </div>
+
                 <div class="column">
                     <div class="paquete">
                         <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/addons/4.png" alt="">
@@ -291,6 +303,9 @@ get_header();
                         </ul>
                         <div class="precio">$1,890</div>
                     </div>
+                    <div class="pleca naranja">
+                        Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                    </div>
                 </div>
             </div>
 
@@ -301,7 +316,7 @@ get_header();
 
                 </p>
                 <p>*Si deseas tus archivos en USB, puedes adquirirla con nosotros por un costo adicional de $150.00 mxn.</p>
-               
+
             </div>
 
             <a href="https://skydivemexico.mx/promociones" class="btn azul">RESERVA aqui</a>
@@ -313,7 +328,7 @@ get_header();
     <div class="wrapper">
         <div class="flex cols-70-30">
             <div class="column">
-               
+
             </div>
             <div class="column">
                 <div class="info text-left">
@@ -343,7 +358,7 @@ get_header();
             </div>
             <div class="column">
                 <div class="opcion">
-                     <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/recomendaciones/2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/recomendaciones/2.png" alt="">
                     <h3>HOTELES<span>en Tequesquitengo</span></h3>
                     <a href="http://t.ly/FLZ6" class="btn azul">VER MÁS</a>
                 </div>

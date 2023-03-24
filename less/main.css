@@ -341,6 +341,21 @@ header nav ul a.active {
   font-family: 'bebas_neuebold';
   margin-top: 20px;
 }
+.pleca {
+  font-family: 'aller_lightregular';
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: -10px;
+  font-size: 17px;
+}
+.pleca.naranja {
+  background-color: #ffac2f;
+}
+.pleca.purple {
+  background-color: #4e3360;
+}
 #salta {
   background: url("img/home/salta/BrushCompleto.png") no-repeat top center;
   min-height: 1310px;
@@ -787,6 +802,10 @@ header nav ul a.active {
 }
 #addons #packs .paquete {
   min-height: 780px;
+}
+#addons #packs .pleca {
+  margin: -30px auto 0;
+  max-width: 500px;
 }
 #addons .nota {
   background-color: #4e3360;

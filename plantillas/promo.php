@@ -12,7 +12,7 @@ get_header();
                 <img src="<?php echo get_template_directory_uri(); ?>/less/img/Promo.png" alt="salta en paracaidas">
             </div>
             <div class="column">
-             <?php echo do_shortcode('[caldera_form id="CF5ef2592017ad6"]'); ?>
+             <?php echo do_shortcode('[wpforms id="1714"]'); ?>
             </div>
         </div>
 
