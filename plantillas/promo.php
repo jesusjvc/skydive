@@ -9,7 +9,7 @@ get_header();
             <h1>Reserva <span>tu lugar</span></h1>
         <div class="flex cols-2">
             <div class="column">
-                <img src="<?php echo get_template_directory_uri(); ?>/less/img/promo.jpg" alt="salta en paracaidas">
+                <img src="<?php echo get_template_directory_uri(); ?>/less/img/Promo.png" alt="salta en paracaidas">
             </div>
             <div class="column">
              <?php echo do_shortcode('[caldera_form id="CF5ef2592017ad6"]'); ?>

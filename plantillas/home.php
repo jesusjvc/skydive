@@ -118,8 +118,12 @@ get_header();
                     <li>Peso Max 90 Kg</li>
                 </ul>
                 <a href="https://skydivemexico.mx/promociones/" class="btn rayado"><span>COMPRAR</span></a>
+                <div class="nota">
+                    Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                </div>
             </div>
         </div>
+
         <div class="paquete dos">
             <div class="fondo">
                 <h3>
@@ -135,10 +139,14 @@ get_header();
                 </ul>
                 <a href="https://skydivemexico.mx/promociones/" class="btn rayado"><span>COMPRAR</span></a>
                 <div class="nota">
-                    En grupos de 12, el doceavo se lleva un salto GRATIS
+                    Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                </div>
+                <div class="nota purple">
+                    ¡En grupos de 12, el doceavo se lleva un salto GRATIS!
                 </div>
             </div>
         </div>
+
         <div class="paquete tres">
             <div class="fondo">
                 <h3>
@@ -154,7 +162,10 @@ get_header();
                 </ul>
                 <a href="https://skydivemexico.mx/promociones/" class="btn rayado"><span>COMPRAR</span></a>
                 <div class="nota">
-                    En grupos de 12, el doceavo se lleva un salto y video GRATIS
+                    Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                </div>
+                <div class="nota purple">
+                    ¡En grupos de 12, el doceavo se lleva un salto GRATIS!
                 </div>
             </div>
         </div>
@@ -222,6 +233,10 @@ get_header();
                         </ul>
                         <div class="precio">$950</div>
                     </div>
+                    <div class="nota">
+                    Precio en promoción pagando en efectivo o transferencia electrónica. Cualquier otra forma de pago $1950. Aceptamos VISA y Mastercard.
+                </div>
+                    
                 </div>
                 <div class="column">
                     <div class="paquete">
@@ -239,6 +254,7 @@ get_header();
                         </ul>
                         <div class="precio">$1,200</div>
                     </div>
+                
                 </div>
             </div>
             <div class="flex cols-2">
