@@ -120,6 +120,7 @@
 
 
 			<?php wp_footer(); ?>
+			
 
 			<!-- analytics -->
 			<script>
