@@ -367,4 +367,10 @@ get_header();
     </div>
 </section>
 
+<section id="tiktok">
+    <div class="wrapper">
+        <?php echo do_shortcode('[tiktok-feed id="0"]'); ?>
+    </div>
+</section>
+
 <?php get_footer(); ?>
