@@ -369,6 +369,8 @@ get_header();
 
 <section id="tiktok">
     <div class="wrapper">
+        <h2>¡VÍVE LA ADRENALINA!</h2>
+        <p>Síguenos en tiktok y no te pierdas de esta increíble experiencia</p>
         <?php echo do_shortcode('[tiktok-feed id="0"]'); ?>
     </div>
 </section>

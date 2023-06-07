@@ -854,6 +854,12 @@ header nav ul a.active {
 #recomendaciones .opcion .btn {
   width: 250px;
 }
+#tiktok h2 {
+  font-size: 4em;
+  text-align: center;
+  color: #4e3360;
+  margin-bottom: 0;
+}
 #transporte-contacto {
   background: url("img/transporte/contacto/fondo.png") no-repeat center top, linear-gradient(180deg, #eeeeee 0%, #eeeeee 36%, #4e3360 42%, #4e3360 100%);
   padding: 150px 0 190px 0;
@@ -1192,7 +1198,8 @@ footer .info {
   position: relative;
   margin: 20px 0;
 }
-footer .info i {
+footer .info i,
+footer .info img {
   color: #ffac2f;
   position: absolute;
   left: -10px;
