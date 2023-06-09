@@ -61,7 +61,7 @@
 							</div>
 
 							<div class="info">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/icons/tiktok.svg" alt="Logo" width="15">
+							<i class="fa-brands fa-tiktok"></i>
 								<p> <a href="https://www.tiktok.com/@skydivemexicooficial?_t=8cwlRuDhju9&_r=1" target="_blank">/skydivemexicooficial</a></p>
 							</div>
 

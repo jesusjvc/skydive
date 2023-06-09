@@ -68,9 +68,7 @@
                         <ul class="redes flex">
                             <li><a href="https://www.facebook.com/skydivemexico/"><i class="fab fa-facebook-square"></i></a></li>
                             <li><a href="https://www.instagram.com/skydivemexico/"><i class="fab fa-instagram-square"></i></a></li>
-                            <li><a href="https://www.tiktok.com/@skydivemexicooficial?_t=8cwlRuDhju9&_r=1"> <img src="<?php echo get_template_directory_uri(); ?>/img/icons/tiktok.svg" alt="Logo" width="21" style="padding-top:3px"></a></li>
-                            <!--
-                                <li><a href="https://www.tiktok.com/@skydivemexicooficial?_t=8cwlRuDhju9&_r=1"><i class="fa-brands fa-tiktok"></i></a></li>!-->
+                            <li><a href="https://www.tiktok.com/@skydivemexicooficial?_t=8cwlRuDhju9&_r=1"><i class="fa-brands fa-tiktok"></i></a></li>
 
                         </ul>
                     </div>
@@ -88,7 +86,7 @@
                         <ul class="redes flex">
                             <li><a href="https://www.facebook.com/skydivemexico/"><i class="fab fa-facebook-square"></i></a></li>
                             <li><a href="https://www.instagram.com/skydivemexico/"><i class="fab fa-instagram-square"></i></a></li>
-                            <li><a href="https://www.tiktok.com/@skydivemexicooficial?_t=8cwlRuDhju9&_r=1"> <img src="<?php echo get_template_directory_uri(); ?>/img/icons/tiktok.svg" alt="Logo" width="21" style="padding-top:3px"></a></li>
+                            <li><a href="https://www.tiktok.com/@skydivemexicooficial?_t=8cwlRuDhju9&_r=1"><i class="fa-brands fa-tiktok"></i></a></li>
                         </ul>
                     </div>
                 </div>

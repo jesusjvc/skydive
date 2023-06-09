@@ -1198,8 +1198,7 @@ footer .info {
   position: relative;
   margin: 20px 0;
 }
-footer .info i,
-footer .info img {
+footer .info i {
   color: #ffac2f;
   position: absolute;
   left: -10px;
