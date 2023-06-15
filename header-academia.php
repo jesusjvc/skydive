@@ -64,7 +64,7 @@
                         <div class="inf">
                             <ul class="redes flex">
                                 <li><a href="https://www.facebook.com/skydivemexico/"><i class="fab fa-facebook-square"></i></a></li>
-                                <li><a href="https://www.instagram.com/skydivemexico/"><i class="fab fa-instagram-square"></i></a></li>
+                                <li><a href="https://www.instagram.com/skydivemexicooficial/"><i class="fab fa-instagram-square"></i></a></li>
                             </ul>
                         </div>
                     </div>
