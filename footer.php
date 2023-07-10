@@ -16,19 +16,11 @@
 									Cp. 62680</p>
 							</div>
 							<div class="info">
-								<i class="fas fa-home"></i>
-								<p>Oficina en Cuernavaca <br>
-									Paracaidismo México AC
-									Av. De los 50 metros #100
-									Col villas deportivas
-									Torre III oficina 406
-									Cp. 62389
-									Cuernavaca, Morelos</p>
-							</div>
-							<div class="info">
 								<i class="fas fa-clock"></i>
 								<p>Horarios de atención <br>
-									Lunes a Domingo: 8:00 a 19:00</p>
+								Lunes a Viernes 9:00 am a 6:00pm <br>
+								Sábado y Domingo de 9:00am a 2:00pm
+									</p>
 							</div>
 
 						</div>
@@ -51,7 +43,7 @@
 							<div class="info">
 								<i class="fab fa-whatsapp"></i>
 								<p>Oficina en Cuernavaca <br>
-									<a href="tel:01 777 171 5650">01 777 171 5650</a>
+									<a href="tel:7771715650">777 171 5650</a>
 								</p>
 							</div>
 
