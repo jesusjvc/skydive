@@ -40,7 +40,7 @@
                     <div class="column">
                         <div class="inf">
                              <i class="fas fa-map-marker-alt"></i>
-                            <span>Emiliano Zapata #19 San José Vista Hermosa, Puente de Ixtla Morelos</span>
+                            <span>Emiliano Zapata #21, 62670 San José Vista Hermosa, Mor.</span>
                         </div>
                     </div>
                     <div class="column">
