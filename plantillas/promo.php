@@ -48,57 +48,8 @@ get_header();
         <a href="#promo-form" class="btn morado">!Quiero SALTAR!</a>
     </div>
 </section>
-<!--
-<section id="why">
-    <div class="wrapper">
-        <div class="flex cols-2">
-            <div class="column">
-                <h2><b>¿POR QUÉ</b> <br> SKYDIVE MÉXICO <br> TEQUESQUITENGO <br> <small> es el centro de paracaidismo #1 en el mundo en</small> <strong>SALTOS TANDEM?</strong></h2>
-            </div>
-            <div class="column">
-                <div class="info">
-                    <p>Skydive México cuenta con un <strong>récord perfecto de seguridad </strong>, esto gracias al puntual mantenimiento de nuestras aeronaves, invertimos en los mejores equipos TANDEM a nivel mundial.</p>
-                    <p>Tu seguridad es nuestra principal prioridad Para lograr altos estándares de seguridad no escatimamos gastos en mantenimientos de aviones, equipos, capacitación a instructores y personal de apoyo.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<section id="beneficios">
-    <div class="wrapper">
-        <div class="flex cols-3">
-            <div class="column">
-                <div class="beneficio">
-                    <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/Beneficios/1.png" alt="salta en paracaidas">
-                    <h2>SALTOS <span>seguros</span></h2>
-                    <p>Nuestros equipos tienen un dispositivo de seguridad
-                        llamado VIGIL, que abre el paracaídas de emergencia
-                        automáticamente si es
-                        necesario.</p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="beneficio">
-                    <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/Beneficios/2.png" alt="salta en paracaidas">
-                    <h2>INSTRUCTORES <span>certificados</span></h2>
-                    <p>Instructores certificados y súper experimentados. Para garantizar tu seguridad todos los instructores de Skydive México pasan por una serie de rigurosas capacitaciones.</p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="beneficio">
-                    <img src="<?php echo get_template_directory_uri(); ?>/less/img/home/Beneficios/3.png" alt="salta en paracaidas">
-                    <h2>AVIONES <span>dedicados</span></h2>
-                    <p>Nuestros aviones están especialmente modificados con base en las regulaciones para la práctica del paracaidismo.</p>
-                    <p>
-                        Son los más seguros por sus modernos motores nuevos tipo Turbo-Hélice, los más rápidos y los más económicos.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
--->
+
 <section id="mejores-aviones">
     <?php add_revslider('aviones'); ?>
 </section>
@@ -190,8 +141,6 @@ get_header();
 
 
 </section>
-
-
 
 <section id="garantia">
     <div class="wrapper">
